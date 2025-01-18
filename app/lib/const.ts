@@ -38,8 +38,9 @@ export const slots = [
     name: 'C',
     times: [
       { day: days.MONDAY, time: timeSlots.S3 },
+      { day: days.TUESDAY, time: timeSlots.S7 },
       { day: days.WEDNESDAY, time: timeSlots.S1 },
-      { day: days.THURSDAY, time: timeSlots.S3 }
+      { day: days.THURSDAY, time: timeSlots.S4 }
     ]
   },
   {
@@ -47,39 +48,41 @@ export const slots = [
     times: [
       { day: days.MONDAY, time: timeSlots.S4 },
       { day: days.WEDNESDAY, time: timeSlots.S4 },
-      { day: days.FRIDAY, time: timeSlots.S4 }
+      { day: days.THURSDAY, time: timeSlots.S2 }
     ]
   },
   {
     name: 'E',
     times: [
       { day: days.MONDAY, time: timeSlots.S5 },
-      { day: days.WEDNESDAY, time: timeSlots.S5 },
+      { day: days.WEDNESDAY, time: timeSlots.S2 },
+      { day: days.THURSDAY, time: timeSlots.S7 },
       { day: days.FRIDAY, time: timeSlots.S2 }
     ]
   },
   {
     name: 'F',
     times: [
+      { day: days.MONDAY, time: timeSlots.S7 },
       { day: days.TUESDAY, time: timeSlots.S1 },
-      { day: days.WEDNESDAY, time: timeSlots.S3 },
-      { day: days.FRIDAY, time: timeSlots.S3 }
+      { day: days.WEDNESDAY, time: timeSlots.S5 },
+      { day: days.FRIDAY, time: timeSlots.S4 }
     ]
   },
   {
     name: 'G',
     times: [
       { day: days.TUESDAY, time: timeSlots.S2 },
-      { day: days.WEDNESDAY, time: timeSlots.S2 },
-      { day: days.FRIDAY, time: timeSlots.S1 }
+      { day: days.WEDNESDAY, time: timeSlots.S3 },
+      { day: days.FRIDAY, time: timeSlots.S3 }
     ]
   },
   {
     name: 'H',
     times: [
       { day: days.TUESDAY, time: timeSlots.S4 },
-      { day: days.THURSDAY, time: timeSlots.S4 },
-      { day: days.FRIDAY, time: timeSlots.S3 }
+      { day: days.THURSDAY, time: timeSlots.S3 },
+      { day: days.FRIDAY, time: timeSlots.S1 }
     ]
   },
   {

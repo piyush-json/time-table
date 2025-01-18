@@ -1,0 +1,285 @@
+Sr. No,Course Number,Course Name,L-T-P-C,Faculty Name,Courses Slot,Lab Courses Slot
+1,AR-501,"Robot Kinematics, Dynamics, and Control",3-1-0-4,Dr. Amit Shukla,E,
+2,AR-508,Marine Robotics,3-0-0-3,"Dr. Jagadeesh
+Kadiyam",FS,
+3,AR-514,Vision and Learning Based Control,3-0-0-3,"Dr. Radhe Shyam
+Sharma",D,
+4,BE-101P,Reverse Engineering for Bioengineers,0-0-2-1,"Kharerin Hungyo, Ekta Makhija and Sumit Murab",FS,
+2,BE-203,Enzymology and Bioprocessing,3-0-2-4,"Shyam Kumar
+Masakapalli",D,L1
+3,BE-301,Biomechanics,3-0-2-4,Mohd. Talha,B,L1
+4,BE-304,Bioinformatics,3-0-2-4,"Tulika Prakash
+Srivastava",C,L3
+5,BE-506,Biological Modelling and Simulation,2-0-2-3,Kharerin Hungyo,H,L2
+6,BE-507,Tissue Engineering,3-0-0-3,Sumit Murab,G,
+7,BY-514,Analytical Biotechniques,3-0-0-3,Amit Jaiswal,A,
+8,BY-515,Molecular Biotechnology,3-0-0-3,Baskar Bakthavachalu,B,
+9,BY-517,Introduction to Proteomics,3-0-0-3,Trayambak Basak,F,
+10,BY-527,Gene silencing and genome editing: principles and applications,3-0-0-3,Prasad Kasturi,D,
+11,BY-531,Quantitative Biology and Data Analytics,3-0-0-3,Kharerin Hungyo,H,
+12,BY-532,Immunotechnology,3-0-0-3,Amit Prasad,E,
+13,BY-535P,Analytical Biotechniques Lab,0-0-2-1,Amit Jaiswal,,L4
+14,BY-536P,Immunotechnology Lab,0-0-2-1,Amit Prasad,,L5
+15,BY-699P,Post Graduate Project - 2 (BioTEch),0-0-34-17,Prasad Kasturi,NS,
+16,CE-201,Surveying:Traditional and Digital,2-0-3-4,DPS,E,
+17,CE-202,Introduction to Civil Engineering,1-0-0-1,KS,F,
+18,CE-251,Hydraulics Engineering,3-0-0-3,DS,C,
+19,CE-304P,Hydraulics Engineering Lab,0-0-2-1,"DS (CI),Aliva",,L2
+20,CE-306P,Environmental Engineering Laboratory,0-0-2-1,"Sayantan(CI),Anan
+d",,L3
+21,CE-311,Geotechnical Engineering,3-0-0-3,VUK,D,
+22,CE-311P,Geotechnical Engineering Laboratory,0-0-2-1,"VUK(CI),Ashutos
+h",,L1
+23,CE-356,Reverse Engineering,0-0-2-1,"Prasanna(CI),Subh
+amoy,Vivek",H,
+24,CE-401,Design of Steel Structures,2-1-0-3,"Shivang(CI),Mong",D,
+25,CE-403,Waste water Engineering,3-0-0-3,Ranjeet,C,
+26,CE-404,Analysis of Structures,3-0-0-3,Dhanya,B,
+27,CE-499P,Major Technical Project-II,0-0-10-5,Ashutosh (FA),NS,
+28,CE-504,Slope Stability and Retaining Structures,2-1-0-3,Mousumi,E,
+29,CE-509,Bridge Engineering,3-0-0-3,Shivang,H,
+30,CE-513,Advanced Foundation Engineering,3-0-0-3,Ashutosh,G,
+31,CE-515,Environmental Impact Assessment,3-0-0-3,Anand,G,
+32,CE-516,Uncertainty Analysis in Civil Engineering,3-0-0-3,Shashank,F,
+33,CE-517,Hydroinformatics,3-0-0-3,Vivek,C,
+34,CE-519,Chemistry of Natural Waters,3-0-0-3,Harshad,E,
+35,CE-526,Critical Zone Science,2-1-0-3,Aliva,B,
+36,CE-527,Advanced Pavement Engineering,3-0-0-3,Surya,D,
+37,CE-552,Concrete Technology,3-0-0-3,KS,C,
+38,CE-554,Prestressed Concrete Structures,3-0-0-3,Mong,B,
+39,CE-560,Soil Dynamics,3-0-0-3,Prasanna,B,
+40,CE-561,Science of Climate Change,3-0-0-3,Sayantan,F,
+41,CE-586P,Mini Project,0-0-6-3,Subhamoy (FA),NS,
+42,CE-610,Analysis and Design for Earthquake Resistant Structures,3-0-0-3,"Sandip(CI),Shasha nk",D,
+43,CE-611,Structural Health Monitoring,3-0-0-3,Subhamoy,E,
+44,CE-689P,Post Graduate Project – II,0-0-30-15,Shivang (FA),NS,
+45,CS-302,Paradigms of Programming,4,"Varumkumar
+Jayapaul",A,L3
+46,CS-303,Software Engineering,3-0-0-3,Varun Dutt,C,L4
+47,CS-304,Formal Languages and Automata Theory,3-0-0-3,"Jinesh C.
+Machchhar",E,
+48,CS-309,Information and Database Systems,4,Rohit Saluja,G,L5
+49,CS-520,Introduction to Quantum Computing,2-0-1-3,Prateek Vishnoi,G,L1
+50,CS-549,Performance Analysis of Computer Networks,3-0-0-3,Sreelkashmi,B,
+51,CS-671,Deep Learning and Applications,3-1-0-4,Aditya Nigam,A,
+52,CS-673,Advanced Computer Vision,4,Dinesh Singh and Rohit Saluja,D,L2
+53,CS-XXX,Randomized Algorithms,4-0-0-4,Gaurav sood,D,
+54,CS-XXX,Introduction to Quantum Computing,,Dr. Prateek,D,
+55,CY-100-2,Preparatory Chemistry II,3-1-0-4,Indu Bala,,
+56,CY-202P,Organic Chemistry Laboratory,0-0-4-2,Indu Bala,,L3
+57,CY-203P,Inorganic Chemistry Laboratory,0-0-4-2,Prem Felix Siril,,L5
+58,CY-247,Introduction to Molecular Thermodynamics,3-0-0-3,Aniruddha Chakraborty,A,
+59,CY-304,Fundamental Analytical Chemistry,3-0-0-3,Venkata Krishnan,D,
+60,CY-401,Introduction to Quantum Chemistry & Molecular Spectroscopy,3-0-0-3,Chayan Kanti Nandi,C,
+61,CY-501P,Organic Chemistry Laboratory,4-0-0-4,Subrata Ghosh,,"L1, L2"
+62,CY-502,Photochemistry and Pericyclic Reactions,3-1-0-4,Amit Balkrishna Pawar,B,
+63,CY-504,Heterocyclic Chemistry,2-0-0-2,Abhishek Dewanji,C,
+64,CY-507,Chemistry of Main Group Elements,3-1-0-4,Abhimanew Dhir,C,
+65,CY-511,Group Theory and Spectroscopy,3-0-0-3,Bhaskar Mondal,D,
+66,CY-513,"Reaction Dynamics, Kinetics and Catalysis",3-0-0-3,Moupriya Das,D,
+67,CY-524,Basic and Applied Electrochemistry,3-0-0-3,Aditi Halder,E,
+68,CY-555,Introduction to Polymer Science & Technology,3-0-0-3,Garima Agrawal,A,
+69,CY-599P,Post Graduate Project - 2 (Chem),9,Abhishek Dewanji,NS,
+70,CY-600R,Research Methodology for Chemistry,1-0-0-1,Venkata Krishnan,FS,
+71,CY-644,Bioinorganic Chemistry,3-0-0-3,Pradeep C. Parameswaran,F,
+72,CY-670,"Fluorescence spectroscopy, microscopy and applications",3-0-0-3,Narayan Sinha,G,
+73,DP-399_CE,Semester Internship,0-0-18-9,Ashutosh (FA),NS,
+74,DP-402P,Major Technical Project,0-0-8-5,Respective FAs,NS,
+75,DP-502P,Design Practicum II (CHEMISTRY),0-0-4-2,Garima Agrawal,NS,
+76,DS- 413,Introduction to Statistical Learning,3-1-0-4,Manoj Thakur,A,
+77,DS-302,Computing systems for data processing,2-0-2-3,"Padmanabhan
+Rajan",B,L3
+78,DS-313,Statistical Foundations of Data Science,3-1-0-4,Siddhartha Sarma,G,
+79,DS-404,Information Security and Privacy,3-0-0-3,Dr. Awaneesh Kumar Yadav,H,
+80,DS-411,Optimization for Data Science,3-1-0-4,Dr. Parimala,F,
+81,DS-412,Matrix Computations for Data Science,3-0-2-4,Adarsh Patel,C,L1
+82,EE-201,Electromechanics,2.5-0.5-0-3,Moumita Das,D,
+83,EE-201P,Electromechanics Lab,0-0-2-1,Pratim Kundu,,L3
+84,EE-211,Analog Circuit Design,2-0-2-3,Abhisek Sharma (New Faculty Member),E,L1
+85,EE-304,Communication Systems,3-0-2-4,Satyajit Thakor,F,
+86,EE-309,Power Electronics,2.5-0.5-0-3,Venkata Ratnam,G,
+87,EE-309P,Power Electronics Lab,0-0-2-1,Venkata Ratnam,,L1
+88,EE-326,Computer Organization and processor architecture,3-0-2-4,Bikram Paul,A,L3
+89,EE-515,Nonlinear Systems,4-0-0-4,Tushar Jain,G,
+90,EE-523,Digital VLSI Architecture Design,3-0-2-4,Rahul Shrestha,F,L2
+91,EE-529,Embedded Systems,3-0-2-4,Shubhajit Roy Chowdhury,E,L1
+92,EE-604,Advanced Electrical Drives,2.5-0.5-0-3,Himanshu Mishra,B,
+93,EE-604P,Practicum on Advanced Electrical Drives,0-0-2-1,Himanshu Mishra,,L2
+94,EE-611,VLSI Technology,3-0-0-3,Satinder Kumar Sharma,A,
+95,EE-611P,VLSI Fabrication Practicum,0-0-3-2,Satinder Kumar Sharma,,L4
+96,EE-618,Industrial process control,2.5-0.5-0-3,Kaushik Halder,H,
+97,EE-623P,Practicum on Digital Control of Power Electronics and Drives,1-0-4-3,Amit Kumar Singha,,L4
+98,EE-XXX,Electromagnetics & Wave Propagation(EE-202),3-0-0-3,Gopi Shrikanth Reddy,C,
+99,EE-XXX,Medical Imaging & Applications,3-0-2-4,Sneha Singh,C,
+100,EE-500,Network Control System,3-0-0-3,"Narendra Kumar
+Dhar",C,
+101,EE-516,Biomedical Systems,2.5-0.5-1-4,"Shubhajit Roy
+Chowdhury",B,L2
+102,EE-541,"Tensors: Techniques, Algorithms, Applications for Signal Processing, and Machine Learning",4,,D,L4
+103,EE-556,Nuclear Reactor Control,1-0-0-1,,F,
+104,EE-560,Reconfigurable Computing,3-0-2-4,Srinivasu Bodapati,D,L5
+105,EE-574,Biomedical Signal & Image Analysis,3-0-0-3,"Dr. Sneha Singh,Dr. Siddhartha Sarma",H,
+106,EE-582,Nonlinear Analysis and Control of Power Electronic Converters,3-0-0-3,Amit Kumar Singha,H,
+107,EE-584,Power System Protection,3-0-0-3,Pratim Kundu,D,
+108,EE-608,Digital Image Processing,3-0-2-4,Sneha Singh,E,L3
+109,EE-621,Radiating Systems,3-1-0-4,Anirban Sarkar,A,
+110,EE-625P,M. Tech. Project (PED),0-0-32-16,Respective FAs,NS,
+111,EE-630,HVDC Transmission and Flexible AC Transmission Systems,3-0-0-3,Priyatosh Mahish,G,
+112,EE-XXX,Vision and Learning Based Control,X-X-X-3,"Radhe Shyam
+Sharma",C,
+113,EE-XXXP,Reverse Engineering,0-0-2-1,Bikram Paul,,L2
+114,EN-511,Computational Methods in Material Science,1-0-6-4,Sudhir Pandey,B,
+115,EN-511,Computational Methods in Material Science,3-0-1-4,Sudhir Pandey,B,
+116,EP-401P,Engineering of Instrumentation,1-0-5-4,C.S. Yadav,,L5
+117,EP-403,Physics of Atoms and Molecules,3-0-0-3,Rahul Kumar Kothari,F,
+118,EP-502,Informatics for Materials Design,2-0-2-3,Arti Kashyap,G,
+119,EP-XXX,Reverse Engineering,0-0-2-1,"Dr. Bindu
+Radhamany",NS,
+120,GE-502,Consciousness and professional ethics,2-1-0-3,Atul Dhar,FS,
+121,HC-600,Research Methodology,1-0-0-1,,FS,
+122,HS-202,Principles of Economics,3-0-0-3,Ramna Devi,H,
+123,HS-204,Introduction to Political Sciences,3-0-0-3,Aparna Malviya,E,
+124,HS-255,India since Independence,3-0-0-3,Aparna Malviya,G,
+125,HS-256,Introduction to Spanish Language,3-0-0-3,Juan Luis,F,
+126,HS-302,Introduction to Drama in English,3-0-0-3,Neethi Vadakkan,C,
+127,HS-304,Organizational Management,,,FS,
+128,HS-342,German-I,3-0-0-3,Neha Kaushik,G,
+129,HS-351,Popular Fiction,3-0-0-3,Suman,G,
+130,HS-358,Science Writing,3-0-0-3,Aruna Bommareddi,E,
+131,HS-481,International Economics,3-0-0-3,Ramna Devi,A,
+132,HS-504,Personal Finance and Portfolio Management,3-0-0-3,Satvasheel Powar,G,
+133,HS-506,Population Studies: Theory and Basic Analysis,3-0-0-3,Mayanka Ambade,A,
+134,HS-530,"Planning, Welfare and Development",3-0-0-3,Saumya Malviya,B,
+135,HS-533,Urban Development,3-0-0-3,"Surya Prakash
+Upadhyay",C,
+136,HS-537,"Post-Reform India: Polity, Society and Economy",3-0-0-3,Surya Prakash Upadhyay,D,
+137,HS-541,Technical Communication,1-0-0-1,"Aruna
+Bommareddi",A,
+138,HS-542,"Ethnicity, State, and Nationalism in India",3-0-0-3,Nilamber Chhetri,E,
+139,HS-546,Readings in World Literature,3-0-0-3,"Thirthankar
+Chakraborty",G,
+140,HS-548,Science and Society,3-0-0-3,Saumya Malviya,F,
+141,HS-550,Statistical Methods,3-0-2-4,"Shyamashree Das
+Gupta",D,L2
+142,HS-551P,Development Studies Practicum I,0-0-8-4,Mayanka Ambade,,L1
+143,HS-554P,Post Graduate Project,0-0-33-22,Neethi Vadakkan,,L2
+144,HS-591,"Special topics: Selected Topics in Research
+Writing",1-0-0-1,Rajeshwari Dutt,FS,
+145,HS-631,Historical Theory and Methodology,3-0-0-3,"Manu V
+Devadevan",B,
+146,HS-632,South Indian Epigraphy,3-0-0-3,"Manu V
+Devadevan",C,
+147,HS-633,Manuscriptology,3-0-0-3,"Manu V
+Devadevan",F,
+148,HS-XXX,World Cinema I,3-0-0-3,Juan Luis,D,
+149,IC-161P,Applied Electronics Lab,0-0-3-2,"Srinivasu Bodapati, Anirban Sarkar, Robin Khosla (Coordinator), Shubhajit Roy Chowdhury, Rahul Shrestha",,
+150,IC-010_CE,Internship,2,Ashutosh (FA),NS,
+151,IC-102P,Foundations of design practicum,3-0-2-4,,G,
+152,IC-114,Linera Algebra,2-0-0-2,Nitu Kumari,A,
+153,IC-115,ODE and Integral Transform,2-0-0-2,Muslim Malik,B,
+154,IC-121,Mechanics of Particles and Waves,2.5-0.5-0-3,Krishna Mohan Parattu,C,
+155,IC-140,Engineering Graphics,2-0-3-4,"Deepak Sachan, Anil Kishan, Rajesh Ghosh",F,
+156,IC-161,Applied Electronics,3-0-0-3,Dr. Anirban Sarkar and Dr. Bikram Paul.,E,
+157,IC-181,Introduction to Consciousness and Holistic Wellbeing,2-0-2-3,Venkatesh Hanumant Rao Chembrolu,F,
+158,IC-201P,Design Practicum,0-0-6-3,"Gajendra, Sarthak",NS,
+159,IC-222P,Physics Practicum/Practicals,0-0-3-2,"Kaustav
+Mukherjee",,L1-L5
+160,IC-230,Environmental Science,3-0-0-3,Harshad,A,
+161,IC-240,Mechanics of Rigid Bodies,1.5-1.5-0-3,Sandip,C,
+162,IC-241,Materials Science for Engineers,3-0-0-3,Rahul Vaish,C,
+163,IC-252,Probability and Statistics,3-0-2-4,Tanmay Kayal,D,
+164,IC-253,Programming & Data Structure,3,Dr. Dinesh,C,
+165,IK-515,Philosophy of Science,3,"Prof. Partha Ghosh, Prof. Aniruddha Chakraborty",F,
+166,IK-503,Cognitive Psychology and Indian Thought System,3-0-0-3,Varun Dutt,A,
+167,IK-505,Bhagwat Samkhya,3-0-0-3,,F,
+168,IK-507,Neuroscience and Mental Health,3-0-0-3,Ramajayam G,G,
+169,MA-002,Praparatory Course,3-1-0-4,Mirza Galib Anwarul Husain Baig,B,
+170,MA-516,Topology,3-1-0-4,Samir Shukla,G,
+171,MA-521,Functional Analysis,3-1-0-4,Saswata Adhikari,A,
+172,MA-522,Partial Differential Equations,3-1-0-4,Syed Abbas,D,
+173,MA-523,Numerical Analysis,3-1-0-4,Rakesh  (New Faculty),C,
+174,MA-524,Probability and Statistics,3-1-0-4,Rishikesh (New Faculty),E,
+175,MA-549,Abstract Algebra,3-0-0-3,Vikash Tripathi,F,
+176,MA-552,Number Theory,3-0-0-3,Sampat Kumar Sharma,D,
+177,MA-600,Research Methodology,1-0-0-1,Sarita Azad,FS,
+178,MA-522,Partial Differential Equations,3-1-0-4,Qaiser Jahan,B,
+179,MA-523,Numerical Analysis,3-1-0-4,Rajendra Kr. Ray,C,
+180,MA-xxx,Applied Mathematical Programming,3-1-0-4,Preeti,D,
+181,ME-100,Reverse Engineering,0-0-2-1,Atul Dhar,D,
+182,ME-205,Machine drawing,1-0-4-3,Talha,B,
+183,ME-210P,Fluid Mechanics Lab,0-0-2-1,"Parmod Kumar,
+Sarthak Nag",C,
+184,ME-215,Manufacturing Engineering 1,3-0-0-3,Prateek Saxena,A,
+185,ME-303,Heat Transfer,2.5-0.5-0-3,Anil Kishan,E,
+186,ME-307,Energy conversion devices,2.5-0.5-0.3,Gajendra,F,
+187,ME-312P,Design Lab 2,0-0-2-1,"Himanshu Pathak, Sunny Zafar",B,
+188,ME-499P,Major Technical Project,0-0-7.5-5,Prateek Saxena,C,
+189,ME-506,Fundamentals of Fracture Mechanics,2.5-0.5-0.3,Dr. Rajneesh Sharma,FS,
+190,ME-513,Finite Element Methods in Engineering,,"MG(CI),Dhanya (Only Lab-Co-CI)",A,L4
+191,ME-514,Fundamentals of multiphase flow,3-0-0-3,Parmod Kumar,B,
+192,ME-516,Polymer Technology For Engineers,3-0-0-3,Jaspreet Kaur Randhawa,C,
+193,ME-520,Microwave Based Manufacturing Processes,3-0-0-3,Sunny Zafar,D,
+194,ME-522,High-Performance Scientific Computing,2-0-1-3,Gaurav Bhutani,D,
+195,ME-524,Additive Manufacturing,3-0-0-3,Mrityunjay Doddamani,E,
+196,ME-600,Research Methodology,1-0-0-1,"Sarthak Nag, Dube Dheeraj Prakeshchand, Deepak Sachan",F,
+197,ME-601,Advanced FEM,3-0-0-3,Vishal Singh Chauhan,G,
+198,ME-616,Convective Heat and Mass Transfer,3-0-0-3,Pradeep Kumar,B,
+199,ME-617,Mechanics of composite material,3-0-0-3,Raj Kiran,B,
+200,ME-622,Biomechanics of Musculoskeletal System,3-0-0-3,Rajesh Ghosh,C,
+201,ME-625,Introduction to Turbulence and Its Modeling,3-0-0-3,Shashwat Bhattacharya,A,
+202,ME-630,Machine learning for engineers,2-0-2-3,Rajeev Kumar,G,
+203,MT-204,Thermodynamics and Kinetics of Materials,3-0-0-3,"V.M Suntharavel
+Muthaiah",A,
+204,MT-205,Functional Properties of Materials,3-0-2-4,"Ranbir Singh, Viswanath Balakrishnan",B,
+205,MT-206,Extraction and Materials Processing,3-0-2-4,"Ravindra Bukke Naik, Neha Shukla",E,
+206,MT-501,Energy conversion and Storage Technologies,3-0-0-3,Rik Rani Koner,D,
+207,MT-507,Modelling and SImulations in Materials Science,3-0-0-3,Dheeraj Dube,C,
+208,MT-509,Hydrogen Energy,3-0-0-3,Sandeep Sahu,F,
+209,PH-302,Introduction to Statistical Mechanics,2.5-0.5-0-4,Harsh Soni,C,
+210,PH-501,Solid State Physics,3-0-0-3,Pradeep Kumar,D,
+211,PH-502,Photonics,3-0-0-3,"Pradyumna Kr.
+Pathak",A,
+212,PH-503,Laser and Applications,3-0-0-3,Suman Kalyan Pal,E,
+213,PH-519P,Post Graduate Project - 2 (Physics),0-0-16-8,Amal Sarkar,NS,
+214,PH-521,Electromagnetic Theory,4-0-0-4,Sudhir Pandey,F,
+215,PH-522,Statistical Mechanics,4-0-0-4,Prasanth P. Jose,C,
+216,PH-523,Condensed Matter Physics,3-0-0-3,Gargee G. Sharma,D,
+217,PH-524,Atomic and Molecular Physics,3-0-0-3,Arko Roy,H,
+218,PH-526,Research Project III,0-0-6-3,Ravindra Kumar Yadav,NS,
+219,PH-527,Research Project IV,0-0-6-3,Ravindra Kumar Yadav,NS,
+220,PH-550,Introduction to Quantum Optics,3-0-0-3,Ravindra Kumar Yadav,G,
+221,PH-606,Quantum Field Theory,3-0-0-3,Nirmalya Kajuri,H,
+222,PH-609,Theory of quantum collision and spectroscopy,3-0-0-3,Hari Varma,C,
+223,PH-611P,Experimental Research Techniques,0-0-7-4,Bindu Radhamany,,L1
+224,PH-612,Nuclear and Particle Physics,3-0-0-3,Prabhakar Palni,A,
+225,PH-621,Computational Methods for Physicists,2-0-4-4,Amal Sarkar,B,
+226,PH-622,Mini-thesis II (PHYSICS),0-0-16-8,Amal Sarkar,NS,
+227,QS-501P,Experiments in Quantum Optics,0-0-5-3,C.S. Yadav,NS,
+228,VLXXX,CMOS processing and practicum,3-0-1-4,Robin khosla,C,
+229,VLXXX,Electronics system packaging,3-0-0-3,Ranbir singh ( SMME) and or Abhishek Sharma ( new faculty),B,
+230,VLXXX,Reverse Engineering - E-waste management,1-0-0-1,Kunal Ghosh,E,
+231,IC-1XX,HISTORY OF SCIENCE,3-0-0-3,"Prof. Partha Ghosh, Prof. Laxmidhar Behera",F,
+232,CY-200,Foundations of Design Practicum,,,G,
+233,BY-698P,Post Graduate Project-1,16,Faculty Advisor,NS,
+234,BY-699P,Post Graduate Project-2,17,Faculty Advisor,NS,
+235,EE-626P,Project I,10,Faculty Advisor,NS,
+236,EE-627P,Post Graduate Project-2,18,Faculty Advisor,NS,
+237,ME-696P,Post Graduate Project-2,14,Faculty Advisor,NS,
+238,ME-697P,Post Graduate Project-3,,Faculty Advisor,NS,
+239,EE-624P,Post Graduate Project-1,15,Faculty Advisor,NS,
+240,EE-625P,Post Graduate Project-2,16,Faculty Advisor,NS,
+241,CE-688P,Post Graduate Project-1,14,Faculty Advisor,NS,
+242,CE-689P,Post Graduate Project -2,15,Faculty Advisor,NS,
+243,EE-650P,Post Graduate Project-1,17,Faculty Advisor,NS,
+244,EE-651P,Post Graduate Project - 2,17,Faculty Advisor,NS,
+245,ME-698P,Post Graduate Project-1,14,Faculty Advisor,NS,
+246,ME-699P,Post Graduate Project-2,18,Faculty Advisor,NS,
+247,DP-512P,Industrial/Research Internship,1,Faculty Advisor,NS,
+248,CE-587P,Industrial/Research Internship,1,Faculty Advisor,NS,
+249,MA-581P,Post Graduate Project 1,10,Faculty Advisor,NS,
+250,MA-582P,Post Graduate Project-2,14,Faculty Advisor,NS,
+251,PH-518P,Post Graduate Project -1,3,Faculty Advisor,NS,
+252,PH-519P,Post Graduate Project - 2,8,Faculty Advisor,NS,
+253,CY-598P,Post Graduate Project- 1,4,Faculty Advisor,NS,
+254,CY-599P,Post Graduate Project - 2,9,Faculty Advisor,NS,
+255,HS-554P,Post Graduate Project,23,Faculty Advisor,NS,

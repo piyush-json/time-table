@@ -37,6 +37,7 @@ const TimetableGenerator = () => {
   const handleCourseSelect = (course: Course) => {
     if (selectedCourses.some((c) => c.code === course.code)) {
       setSelectedCourses(selectedCourses.filter((c) => c.code !== course.code))
+      updateTimetable(selectedCourses.filter((c) => c.code !== course.code))
       return
     }
     const newSelectedCourses = [...selectedCourses, course]

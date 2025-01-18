@@ -34,7 +34,15 @@ const ShareTimetable = ({
     }
     const timetableElement = document.querySelector('.timetable')
     if (timetableElement) {
-      html2canvas(timetableElement as HTMLElement).then((canvas) => {
+      const canvasDiv = document.createElement('div')
+      canvasDiv.appendChild(timetableElement?.cloneNode(true))
+      canvasDiv.style.position = 'absolute'
+      canvasDiv.style.top = '1000000px'
+      canvasDiv.style.left = '100000px'
+      document.body.appendChild(canvasDiv)
+      canvasDiv.style.width = `${timetableElement?.scrollWidth}px`
+      canvasDiv.style.height = `${timetableElement?.scrollHeight}px`
+      html2canvas(canvasDiv).then((canvas) => {
         const link = document.createElement('a')
         link.download = 'timetable.png'
         link.href = canvas.toDataURL()
@@ -92,16 +100,17 @@ const ShareTimetable = ({
       .toISOString()
       .replace(/[-:]/g, '')
       .split('.')[0]
-
-    return `
-      BEGIN:VEVENT
-      SUMMARY:${course.code} - ${course.location}
-      DTSTART:${startDateTimeStr}Z
-      DTEND:${endDateTimeStr}Z
-      RRULE:FREQ=WEEKLY;BYDAY=${dayMap[day]}
-      DESCRIPTION:${course.name} at ${course.location} by ${course.professor}.
-      END:VEVENT
-    `
+    const descripton = `${course.name} at ${course.location}${
+      course.professor ? `by ${course.professor}` : ''
+    }`.slice(0, 70)
+    return `BEGIN:VEVENT
+SUMMARY:${course.code}${course.location ? ` - ${course.location}` : ''}
+DTSTART:${startDateTimeStr}Z
+DTEND:${endDateTimeStr}Z
+RRULE:FREQ=WEEKLY;BYDAY=${dayMap[day]}
+DESCRIPTION:${descripton}.
+END:VEVENT
+`
   }
 
   const addToGoogleCalendar = () => {
@@ -110,7 +119,8 @@ const ShareTimetable = ({
       return
     }
 
-    let icsData = 'BEGIN:VCALENDAR\nVERSION:2.0\nCALSCALE:GREGORIAN\n'
+    let icsData =
+      'BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//okpsh//tt-okpsh//EN\n'
     timeTable.forEach((day) => {
       day.timeSlot.forEach(({ course, time }) => {
         if (course) {
@@ -129,9 +139,9 @@ const ShareTimetable = ({
     link.download = 'courses.ics'
     link.click()
 
-    // const googleCalendarLink =
-    //   'https://calendar.google.com/calendar/r/settings/export'
-    // window.location.href = googleCalendarLink
+    const googleCalendarLink =
+      'https://calendar.google.com/calendar/r/settings/export'
+    window.open(googleCalendarLink, '_blank')
   }
 
   return (

@@ -15,13 +15,14 @@ export type Slot =
   | 'L4'
   | 'L5'
   | 'FS'
+  | 'NS'
 
 export interface Course {
   code: string
   name: string
-  professor: string
+  professor: string | null
   slot: Slot
-  location: string
+  location: string | null
 }
 
 export type Days = (typeof days)[keyof typeof days]

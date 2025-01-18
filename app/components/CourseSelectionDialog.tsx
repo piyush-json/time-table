@@ -27,8 +27,7 @@ const CourseSelectionDialog = ({
       (course) =>
         course.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
         course.code.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        course.professor.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        course.location.toLowerCase().includes(searchTerm.toLowerCase())
+        course.professor?.toLowerCase().includes(searchTerm.toLowerCase())
     )
     setFilteredCourses(filtered)
   }, [searchTerm, courses])
@@ -55,7 +54,7 @@ const CourseSelectionDialog = ({
               <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
                 {filteredCourses.map((course) => (
                   <div
-                    key={course.code}
+                    key={`${course.code}-${Math.random()}`}
                     className={`p-4 rounded-lg cursor-pointer transition-colors ${
                       selectedCourses.some((c) => c.code === course.code)
                         ? 'bg-blue-100 hover:bg-blue-200'

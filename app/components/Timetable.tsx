@@ -8,8 +8,8 @@ interface TimetableProps {
 
 const Timetable = ({ timetable }: TimetableProps) => {
   return (
-    <div className='bg-white shadow rounded-lg p-4 overflow-x-auto timetable'>
-      <table className='w-full border-collapse'>
+    <div className='bg-white shadow rounded-lg p-4 overflow-x-auto timetable w-full'>
+      <table className=' border-collapse w-fit'>
         <colgroup>
           <col style={{ width: '100px' }} />
           {Object.values(timeSlots).map((slot) => (
@@ -41,7 +41,11 @@ const Timetable = ({ timetable }: TimetableProps) => {
               </td>
               {timeSlot.map(({ time, course }) => (
                 <td key={`${day}-${time}`} className='border p-2 h-20'>
-                  {course && <CourseCard course={course} />}
+                  {course ? (
+                    <CourseCard course={course} />
+                  ) : (
+                    <div className='min-w-24 w-full h-14' />
+                  )}
                 </td>
               ))}
             </tr>

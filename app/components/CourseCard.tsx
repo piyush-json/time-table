@@ -14,7 +14,7 @@ export const CourseCard = ({ course }: { course: Course }) => {
       <Tooltip>
         <TooltipTrigger asChild>
           <div
-            className='p-2 rounded w-24 h-14'
+            className='p-2 rounded min-w-24 w-full h-14'
             style={{ backgroundColor: getColor(course.slot) }}
           >
             <p className='font-medium text-xs flex justify-between'>
