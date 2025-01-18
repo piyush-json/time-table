@@ -6,11 +6,7 @@ interface CourseListProps {
   onCourseSelect: (course: Course) => void
 }
 
-const CourseList = ({
-  courses,
-  selectedCourses,
-  onCourseSelect
-}: CourseListProps) => {
+const CourseList = ({ selectedCourses, onCourseSelect }: CourseListProps) => {
   return (
     <div className='bg-white shadow rounded-lg p-4 grow'>
       <h2 className='text-xl font-semibold mb-4'>Selected Courses</h2>

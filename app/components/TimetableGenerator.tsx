@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { useSearchParams, useNavigate } from 'react-router'
+import { useSearchParams } from 'react-router'
 import CourseList from './CourseList'
 import Timetable from './Timetable'
 import ShareTimetable from './ShareTimetable'
@@ -7,44 +7,7 @@ import CourseSelectionDialog from './CourseSelectionDialog'
 import type { Course, TimetableType } from '@/types'
 import { Button } from '@/components/ui/button'
 import { days, slots, timeSlots } from '@/lib/const'
-
-const courses: Course[] = [
-  {
-    code: 'CS-101',
-    name: 'Introduction to Computer Science',
-    professor: 'Dr. Smith',
-    slot: 'A',
-    location: 'A1'
-  },
-  {
-    code: 'MATH-201',
-    name: 'Linear Algebra',
-    professor: 'Dr. Johnson',
-    slot: 'B',
-    location: 'B2'
-  },
-  {
-    code: 'PHY-301',
-    name: 'Quantum Mechanics',
-    professor: 'Dr. Brown',
-    slot: 'C',
-    location: 'C3'
-  },
-  {
-    code: 'ENG-102',
-    name: 'Technical Writing',
-    professor: 'Prof. Davis',
-    slot: 'C',
-    location: 'D2'
-  },
-  {
-    code: 'CS-201P',
-    name: 'Data Structures Lab',
-    professor: 'Dr. Wilson',
-    slot: 'L1',
-    location: 'Lab Slot-1'
-  }
-]
+import { courses } from '@/lib/courses'
 
 const TimetableGenerator = () => {
   const [selectedCourses, setSelectedCourses] = useState<Course[]>([])
@@ -52,7 +15,6 @@ const TimetableGenerator = () => {
   const [showDialog, setShowDialog] = useState(true)
 
   const [searchParams, setSearchParams] = useSearchParams()
-  const navigate = useNavigate()
 
   useEffect(() => {
     const coursesParam = searchParams.get('courses')
