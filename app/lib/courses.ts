@@ -849,13 +849,6 @@ export const courses: Course[] = [
     location: null
   },
   {
-    code: 'EN-511',
-    name: 'Computational Methods in Material Science',
-    professor: 'Sudhir Pandey',
-    slot: 'B',
-    location: null
-  },
-  {
     code: 'EP-403',
     name: 'Physics of Atoms and Molecules',
     professor: 'Rahul Kumar Kothari',
@@ -1266,13 +1259,6 @@ export const courses: Course[] = [
     name: 'Partial Differential Equations',
     professor: 'Qaiser Jahan',
     slot: 'B',
-    location: 'A1-3'
-  },
-  {
-    code: 'MA-523',
-    name: 'Numerical Analysis',
-    professor: 'Rajendra Kr. Ray',
-    slot: 'C',
     location: 'A1-3'
   },
   {
