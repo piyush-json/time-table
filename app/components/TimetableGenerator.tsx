@@ -93,7 +93,7 @@ const TimetableGenerator = () => {
 
   return (
     <div className='flex flex-col gap-6'>
-      <div className='w-ful'>
+      <div className='w-full'>
         <Timetable timetable={timetable} />
       </div>
       <div className='flex max-sm:flex-col gap-4'>

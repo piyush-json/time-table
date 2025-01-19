@@ -21,13 +21,15 @@ export const CourseCard = ({ course }: { course: Course }) => {
               <span>{course.code}</span>
               <span>{course.slot}</span>
             </p>
-            <p className='text-[8px] flex items-center mt-1 text-muted-foreground'>
-              <MapPin className='h-2 w-2 mr-1 ' />
-              Room {course.location}
-            </p>
+            {!!course.location && (
+              <p className='text-[10px] flex items-center mt-1 text-gray-700'>
+                <MapPin className='h-2 w-2 mr-1 ' />
+                Room {course.location}
+              </p>
+            )}
           </div>
         </TooltipTrigger>
-        <TooltipContent>
+        <TooltipContent className='bg-gray-200 text-foreground'>
           <p>{course.name}</p>
         </TooltipContent>
       </Tooltip>

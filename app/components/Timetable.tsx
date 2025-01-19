@@ -9,14 +9,16 @@ interface TimetableProps {
 const Timetable = ({ timetable }: TimetableProps) => {
   return (
     <div className='bg-white shadow rounded-lg p-4 overflow-x-auto timetable w-full'>
-      <table className=' border-collapse w-fit'>
+      <table className=' border-collapse min-w-full'>
         <colgroup>
-          <col style={{ width: '100px' }} />
+          <col style={{ width: '80px' }} />
           {Object.values(timeSlots).map((slot) => (
             <col
               key={slot}
               style={{
-                width: slot === '14:00-17:00' ? '200px' : '100px'
+                width:
+                  slot === '14:00-17:00' ? 'calc(100% / 4)' : 'calc(100% / 8)',
+                minWidth: slot === '14:00-17:00' ? '200px' : '100px'
               }}
             />
           ))}
@@ -36,7 +38,7 @@ const Timetable = ({ timetable }: TimetableProps) => {
         <tbody>
           {timetable.map(({ day, timeSlot }) => (
             <tr key={day}>
-              <td className='border p-2 font-medium text-xs bg-gray-100 h-20'>
+              <td className='border p-2 font-medium text-xs bg-gray-100 h-20 text-center'>
                 {day}
               </td>
               {timeSlot.map(({ time, course }) => (
@@ -44,7 +46,7 @@ const Timetable = ({ timetable }: TimetableProps) => {
                   {course ? (
                     <CourseCard course={course} />
                   ) : (
-                    <div className='min-w-24 w-full h-14' />
+                    <div className='h-14' />
                   )}
                 </td>
               ))}

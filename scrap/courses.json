@@ -9,14 +9,14 @@
   {
     "code": "AR-508",
     "name": "Marine Robotics",
-    "professor": "Dr. Jagadeesh\nKadiyam",
+    "professor": "Dr. Jagadeesh Kadiyam",
     "slot": "FS",
     "location": ""
   },
   {
     "code": "AR-514",
     "name": "Vision and Learning Based Control",
-    "professor": "Dr. Radhe Shyam\nSharma",
+    "professor": "Dr. Radhe Shyam Sharma",
     "slot": "D",
     "location": "A1-NKN"
   },
@@ -30,14 +30,14 @@
   {
     "code": "BE-203",
     "name": "Enzymology and Bioprocessing",
-    "professor": "Shyam Kumar\nMasakapalli",
+    "professor": "Shyam Kumar Masakapalli",
     "slot": "D",
     "location": "A10-2B"
   },
   {
     "code": "BE-203P",
     "name": "Enzymology and Bioprocessing",
-    "professor": "Shyam Kumar\nMasakapalli",
+    "professor": "Shyam Kumar Masakapalli",
     "slot": "L1",
     "location": "A10-2B"
   },
@@ -58,14 +58,14 @@
   {
     "code": "BE-304",
     "name": "Bioinformatics",
-    "professor": "Tulika Prakash\nSrivastava",
+    "professor": "Tulika Prakash Srivastava",
     "slot": "C",
     "location": "A10-2B"
   },
   {
     "code": "BE-304P",
     "name": "Bioinformatics",
-    "professor": "Tulika Prakash\nSrivastava",
+    "professor": "Tulika Prakash Srivastava",
     "slot": "L3",
     "location": "A10-2B"
   },
@@ -170,7 +170,7 @@
   {
     "code": "CE-356",
     "name": "Reverse Engineering",
-    "professor": "Prasanna(CI),Subh\namoy,Vivek",
+    "professor": "Prasanna(CI),Subh amoy,Vivek",
     "slot": "H",
     "location": "A13-2B"
   },
@@ -324,14 +324,14 @@
   {
     "code": "CS-302",
     "name": "Paradigms of Programming",
-    "professor": "Varumkumar\nJayapaul",
+    "professor": "Varumkumar Jayapaul",
     "slot": "A",
     "location": "A17-1A"
   },
   {
     "code": "CS-302P",
     "name": "Paradigms of Programming",
-    "professor": "Varumkumar\nJayapaul",
+    "professor": "Varumkumar Jayapaul",
     "slot": "L3",
     "location": "A17-1A"
   },
@@ -352,7 +352,7 @@
   {
     "code": "CS-304",
     "name": "Formal Languages and Automata Theory",
-    "professor": "Jinesh C.\nMachchhar",
+    "professor": "Jinesh C. Machchhar",
     "slot": "E",
     "location": "A13-1A"
   },
@@ -555,14 +555,14 @@
   {
     "code": "DS-302",
     "name": "Computing systems for data processing",
-    "professor": "Padmanabhan\nRajan",
+    "professor": "Padmanabhan Rajan",
     "slot": "B",
     "location": "A13-2A"
   },
   {
     "code": "DS-302P",
     "name": "Computing systems for data processing",
-    "professor": "Padmanabhan\nRajan",
+    "professor": "Padmanabhan Rajan",
     "slot": "L3",
     "location": "A13-2A"
   },
@@ -723,21 +723,21 @@
   {
     "code": "EE-500",
     "name": "Network Control System",
-    "professor": "Narendra Kumar\nDhar",
+    "professor": "Narendra Kumar Dhar",
     "slot": "C",
     "location": "SC-NKN"
   },
   {
     "code": "EE-516",
     "name": "Biomedical Systems",
-    "professor": "Shubhajit Roy\nChowdhury",
+    "professor": "Shubhajit Roy Chowdhury",
     "slot": "B",
     "location": "CL-3"
   },
   {
     "code": "EE-516P",
     "name": "Biomedical Systems",
-    "professor": "Shubhajit Roy\nChowdhury",
+    "professor": "Shubhajit Roy Chowdhury",
     "slot": "L2",
     "location": "CL-3"
   },
@@ -835,7 +835,7 @@
   {
     "code": "EE-XXX",
     "name": "Vision and Learning Based Control",
-    "professor": "Radhe Shyam\nSharma",
+    "professor": "Radhe Shyam Sharma",
     "slot": "C",
     "location": null
   },
@@ -870,7 +870,7 @@
   {
     "code": "EP-XXX",
     "name": "Reverse Engineering",
-    "professor": "Dr. Bindu\nRadhamany",
+    "professor": "Dr. Bindu Radhamany",
     "slot": "NS",
     "location": null
   },
@@ -982,7 +982,7 @@
   {
     "code": "HS-533",
     "name": "Urban Development",
-    "professor": "Surya Prakash\nUpadhyay",
+    "professor": "Surya Prakash Upadhyay",
     "slot": "C",
     "location": "A5-4"
   },
@@ -996,7 +996,7 @@
   {
     "code": "HS-541",
     "name": "Technical Communication",
-    "professor": "Aruna\nBommareddi",
+    "professor": "Aruna Bommareddi",
     "slot": "A",
     "location": "CL-1"
   },
@@ -1010,7 +1010,7 @@
   {
     "code": "HS-546",
     "name": "Readings in World Literature",
-    "professor": "Thirthankar\nChakraborty",
+    "professor": "Thirthankar Chakraborty",
     "slot": "G",
     "location": "A5-4"
   },
@@ -1024,20 +1024,20 @@
   {
     "code": "HS-550",
     "name": "Statistical Methods",
-    "professor": "Shyamashree Das\nGupta",
+    "professor": "Shyamashree Das Gupta",
     "slot": "D",
     "location": "A5-4"
   },
   {
     "code": "HS-550P",
     "name": "Statistical Methods",
-    "professor": "Shyamashree Das\nGupta",
+    "professor": "Shyamashree Das Gupta",
     "slot": "L2",
     "location": "A5-4"
   },
   {
     "code": "HS-591",
-    "name": "Special topics: Selected Topics in Research\nWriting",
+    "name": "Special topics: Selected Topics in Research Writing",
     "professor": "Rajeshwari Dutt",
     "slot": "FS",
     "location": null
@@ -1045,21 +1045,21 @@
   {
     "code": "HS-631",
     "name": "Historical Theory and Methodology",
-    "professor": "Manu V\nDevadevan",
+    "professor": "Manu V Devadevan",
     "slot": "B",
     "location": null
   },
   {
     "code": "HS-632",
     "name": "South Indian Epigraphy",
-    "professor": "Manu V\nDevadevan",
+    "professor": "Manu V Devadevan",
     "slot": "C",
     "location": null
   },
   {
     "code": "HS-633",
     "name": "Manuscriptology",
-    "professor": "Manu V\nDevadevan",
+    "professor": "Manu V Devadevan",
     "slot": "F",
     "location": null
   },
@@ -1297,7 +1297,7 @@
   {
     "code": "ME-210P",
     "name": "Fluid Mechanics Lab",
-    "professor": "Parmod Kumar,\nSarthak Nag",
+    "professor": "Parmod Kumar, Sarthak Nag",
     "slot": "C",
     "location": null
   },
@@ -1444,7 +1444,7 @@
   {
     "code": "MT-204",
     "name": "Thermodynamics and Kinetics of Materials",
-    "professor": "V.M Suntharavel\nMuthaiah",
+    "professor": "V.M Suntharavel Muthaiah",
     "slot": "A",
     "location": "A10-3B"
   },
@@ -1500,7 +1500,7 @@
   {
     "code": "PH-502",
     "name": "Photonics",
-    "professor": "Pradyumna Kr.\nPathak",
+    "professor": "Pradyumna Kr. Pathak",
     "slot": "A",
     "location": "A10-2A"
   },
