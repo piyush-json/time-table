@@ -34,11 +34,13 @@ const ShareTimetable = ({
     }
     const timetableElement = document.querySelector('.timetable')
     if (timetableElement) {
+      const clone = timetableElement.cloneNode(true) as HTMLElement
+      const deleteButtons = clone.querySelectorAll('.del')
+      deleteButtons.forEach((button) => button.remove())
       const canvasDiv = document.createElement('div')
-      canvasDiv.appendChild(timetableElement?.cloneNode(true))
+      canvasDiv.appendChild(clone)
       canvasDiv.style.position = 'absolute'
-      canvasDiv.style.top = '1000000px'
-      canvasDiv.style.left = '100000px'
+      canvasDiv.style.top = '-1000000px'
       document.body.appendChild(canvasDiv)
       canvasDiv.style.width = `${timetableElement?.scrollWidth}px`
       canvasDiv.style.height = `${timetableElement?.scrollHeight}px`
@@ -48,6 +50,7 @@ const ShareTimetable = ({
         link.href = canvas.toDataURL()
         link.click()
       })
+      document.body.removeChild(canvasDiv)
     }
   }
 
@@ -100,11 +103,11 @@ const ShareTimetable = ({
       .toISOString()
       .replace(/[-:]/g, '')
       .split('.')[0]
-    const descripton = `${course.name} at ${course.location}${
-      course.professor ? `by ${course.professor}` : ''
-    }`.slice(0, 70)
+    const descripton = `${course.name}${
+      course.location ? ` at ${course.location}` : ''
+    }${course.professor ? `by ${course.professor}` : ''}`.slice(0, 70)
     return `BEGIN:VEVENT
-SUMMARY:${course.code}${course.location ? ` - ${course.location}` : ''}
+SUMMARY:${course.code}${course.location ? ` ${course.location}` : ''}
 DTSTART:${startDateTimeStr}Z
 DTEND:${endDateTimeStr}Z
 RRULE:FREQ=WEEKLY;BYDAY=${dayMap[day]}

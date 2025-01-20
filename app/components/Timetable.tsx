@@ -1,12 +1,13 @@
-import type { TimetableType } from '@/types'
+import type { Days, TimeSlot, TimetableType } from '@/types'
 import { timeSlots } from '@/lib/const'
 import { CourseCard } from './CourseCard'
 
 interface TimetableProps {
   timetable: TimetableType
+  deleteTimeSlot: (day: Days, time: TimeSlot) => void
 }
 
-const Timetable = ({ timetable }: TimetableProps) => {
+const Timetable = ({ timetable, deleteTimeSlot }: TimetableProps) => {
   return (
     <div className='bg-white shadow rounded-lg p-4 overflow-x-auto timetable w-full'>
       <table className=' border-collapse min-w-full'>
@@ -44,7 +45,10 @@ const Timetable = ({ timetable }: TimetableProps) => {
               {timeSlot.map(({ time, course }) => (
                 <td key={`${day}-${time}`} className='border p-2 h-20'>
                   {course ? (
-                    <CourseCard course={course} />
+                    <CourseCard
+                      course={course}
+                      deleteTimeSlot={() => deleteTimeSlot(day, time)}
+                    />
                   ) : (
                     <div className='h-14' />
                   )}

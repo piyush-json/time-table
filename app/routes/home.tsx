@@ -14,6 +14,7 @@ export default function Home() {
       <h1 className='text-3xl font-bold mb-4'>
         Personalized Timetable Generator
       </h1>
+      <div className='hidden' />
       <TimetableGenerator />
     </main>
   )

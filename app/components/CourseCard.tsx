@@ -1,6 +1,6 @@
 import { getColor } from '@/lib/helpers'
 import type { Course } from '@/types'
-import { MapPin } from 'lucide-react'
+import { MapPin, Trash } from 'lucide-react'
 import {
   TooltipProvider,
   Tooltip,
@@ -8,16 +8,29 @@ import {
   TooltipContent
 } from '@/components/ui/tooltip'
 
-export const CourseCard = ({ course }: { course: Course }) => {
+export const CourseCard = ({
+  course,
+  deleteTimeSlot
+}: {
+  course: Course
+
+  deleteTimeSlot: () => void
+}) => {
   return (
     <TooltipProvider>
       <Tooltip>
         <TooltipTrigger asChild>
           <div
-            className='p-2 rounded min-w-24 w-full h-14'
+            className='p-2 rounded min-w-24 w-full h-14 relative'
             style={{ backgroundColor: getColor(course.slot) }}
           >
-            <p className='font-medium text-xs flex justify-between'>
+            <button
+              className='absolute p-1 rounded-sm bg-gray-100 -top-1 -right-1 del'
+              onClick={() => deleteTimeSlot()}
+            >
+              <Trash className='w-2 h-2' />
+            </button>
+            <p className='font-medium text-xs flex justify-between pr-2'>
               <span>{course.code}</span>
               <span>{course.slot}</span>
             </p>

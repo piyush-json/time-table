@@ -50,13 +50,15 @@ const CourseSelectionDialog = ({
               onChange={(e) => setSearchTerm(e.target.value)}
               className='mb-4'
             />
-            <div className='overflow-y-auto max-h-[60vh]'>
-              <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+            <div className='overflow-y-auto max-h-[60vh] sm:max-h-[55vh]'>
+              <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-2'>
                 {filteredCourses.map((course) => (
                   <div
-                    key={`${course.code}-${Math.random()}`}
+                    key={`${course.code}-${course.slot}-${course.name}`}
                     className={`p-4 rounded-lg cursor-pointer transition-colors ${
-                      selectedCourses.some((c) => c.code === course.code)
+                      selectedCourses.some(
+                        (c) => c.code === course.code && c.name === course.name
+                      )
                         ? 'bg-blue-100 hover:bg-blue-200'
                         : 'bg-gray-100 hover:bg-gray-200'
                     }`}
@@ -64,12 +66,15 @@ const CourseSelectionDialog = ({
                   >
                     <h3 className='font-medium'>{course.name}</h3>
                     <p className='text-sm text-gray-600'>
-                      {course.code} - {course.professor}
+                      {course.code}
+                      {course.professor ? ` - ${course.professor}` : ''}
                     </p>
-                    <p className='text-xs text-gray-500 mt-1 flex items-center'>
-                      <MapPin className='h-3 w-3 mr-1' />
-                      Room {course.location}
-                    </p>
+                    {course.location && (
+                      <p className='text-xs text-gray-500 mt-1 flex items-center'>
+                        <MapPin className='h-3 w-3 mr-1' />
+                        Room {course.location}
+                      </p>
+                    )}
                     <p className='text-xs text-gray-500'>
                       Slots: {course.slot}
                     </p>

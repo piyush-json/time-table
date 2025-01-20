@@ -13,7 +13,7 @@ const CourseList = ({ selectedCourses, onCourseSelect }: CourseListProps) => {
       <div className='grid grid-cols-1 xl:grid-cols-3 gap-2'>
         {selectedCourses.map((course) => (
           <div
-            key={`${course.code}-${course.slot}`}
+            key={`${course.code}-${course.slot}-${course.name}`}
             className={`p-2 rounded cursor-pointer ${
               selectedCourses.some((c) => c.code === course.code)
                 ? 'bg-blue-100 hover:bg-blue-200'
