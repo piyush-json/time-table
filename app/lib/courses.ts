@@ -11,14 +11,14 @@ export const courses: Course[] = [
   {
     code: 'AR-508',
     name: 'Marine Robotics',
-    professor: 'Dr. Jagadeesh\nKadiyam',
+    professor: 'Dr. Jagadeesh Kadiyam',
     slot: 'FS',
     location: ''
   },
   {
     code: 'AR-514',
     name: 'Vision and Learning Based Control',
-    professor: 'Dr. Radhe Shyam\nSharma',
+    professor: 'Dr. Radhe Shyam Sharma',
     slot: 'D',
     location: 'A1-NKN'
   },
@@ -32,16 +32,16 @@ export const courses: Course[] = [
   {
     code: 'BE-203',
     name: 'Enzymology and Bioprocessing',
-    professor: 'Shyam Kumar\nMasakapalli',
+    professor: 'Shyam Kumar Masakapalli',
     slot: 'D',
     location: 'A10-2B'
   },
   {
     code: 'BE-203P',
     name: 'Enzymology and Bioprocessing',
-    professor: 'Shyam Kumar\nMasakapalli',
+    professor: 'Shyam Kumar Masakapalli',
     slot: 'L1',
-    location: 'A10-2B'
+    location: null
   },
   {
     code: 'BE-301',
@@ -55,21 +55,21 @@ export const courses: Course[] = [
     name: 'Biomechanics',
     professor: 'Mohd. Talha',
     slot: 'L1',
-    location: 'A10-2B'
+    location: null
   },
   {
     code: 'BE-304',
     name: 'Bioinformatics',
-    professor: 'Tulika Prakash\nSrivastava',
+    professor: 'Tulika Prakash Srivastava',
     slot: 'C',
     location: 'A10-2B'
   },
   {
     code: 'BE-304P',
     name: 'Bioinformatics',
-    professor: 'Tulika Prakash\nSrivastava',
+    professor: 'Tulika Prakash Srivastava',
     slot: 'L3',
-    location: 'A10-2B'
+    location: null
   },
   {
     code: 'BE-506',
@@ -83,7 +83,7 @@ export const courses: Course[] = [
     name: 'Biological Modelling and Simulation',
     professor: 'Kharerin Hungyo',
     slot: 'L2',
-    location: 'A5-1'
+    location: null
   },
   {
     code: 'BE-507',
@@ -135,6 +135,20 @@ export const courses: Course[] = [
     location: 'A5-3'
   },
   {
+    code: 'BY-535P',
+    name: 'Analytical Biotechniques Lab',
+    professor: 'Amit Jaiswal',
+    slot: 'L4',
+    location: null
+  },
+  {
+    code: 'BY-536P',
+    name: 'Immunotechnology Lab',
+    professor: 'Amit Prasad',
+    slot: 'L5',
+    location: null
+  },
+  {
     code: 'BY-699P',
     name: 'Post Graduate Project - 2 (BioTEch)',
     professor: 'Prasad Kasturi',
@@ -163,6 +177,20 @@ export const courses: Course[] = [
     location: 'A13-2B'
   },
   {
+    code: 'CE-304P',
+    name: 'Hydraulics Engineering Lab',
+    professor: 'DS (CI),Aliva',
+    slot: 'L2',
+    location: null
+  },
+  {
+    code: 'CE-306P',
+    name: 'Environmental Engineering Laboratory',
+    professor: 'Sayantan(CI),Anan d',
+    slot: 'L3',
+    location: null
+  },
+  {
     code: 'CE-311',
     name: 'Geotechnical Engineering',
     professor: 'VUK',
@@ -170,9 +198,16 @@ export const courses: Course[] = [
     location: 'A13-2B'
   },
   {
+    code: 'CE-311P',
+    name: 'Geotechnical Engineering Laboratory',
+    professor: 'VUK(CI),Ashutos h',
+    slot: 'L1',
+    location: null
+  },
+  {
     code: 'CE-356',
     name: 'Reverse Engineering',
-    professor: 'Prasanna(CI),Subh\namoy,Vivek',
+    professor: 'Prasanna(CI),Subh amoy,Vivek',
     slot: 'H',
     location: 'A13-2B'
   },
@@ -326,16 +361,16 @@ export const courses: Course[] = [
   {
     code: 'CS-302',
     name: 'Paradigms of Programming',
-    professor: 'Varumkumar\nJayapaul',
+    professor: 'Varumkumar Jayapaul',
     slot: 'A',
     location: 'A17-1A'
   },
   {
     code: 'CS-302P',
     name: 'Paradigms of Programming',
-    professor: 'Varumkumar\nJayapaul',
+    professor: 'Varumkumar Jayapaul',
     slot: 'L3',
-    location: 'A17-1A'
+    location: null
   },
   {
     code: 'CS-303',
@@ -349,12 +384,12 @@ export const courses: Course[] = [
     name: 'Software Engineering',
     professor: 'Varun Dutt',
     slot: 'L4',
-    location: 'A11-1A'
+    location: null
   },
   {
     code: 'CS-304',
     name: 'Formal Languages and Automata Theory',
-    professor: 'Jinesh C.\nMachchhar',
+    professor: 'Jinesh C. Machchhar',
     slot: 'E',
     location: 'A13-1A'
   },
@@ -370,7 +405,7 @@ export const courses: Course[] = [
     name: 'Information and Database Systems',
     professor: 'Rohit Saluja',
     slot: 'L5',
-    location: 'A13-1A'
+    location: null
   },
   {
     code: 'CS-520',
@@ -384,7 +419,7 @@ export const courses: Course[] = [
     name: 'Introduction to Quantum Computing',
     professor: 'Prateek Vishnoi',
     slot: 'L1',
-    location: 'CL-2'
+    location: null
   },
   {
     code: 'CS-549',
@@ -429,6 +464,20 @@ export const courses: Course[] = [
     location: null
   },
   {
+    code: 'CY-202P',
+    name: 'Organic Chemistry Laboratory',
+    professor: 'Indu Bala',
+    slot: 'L3',
+    location: null
+  },
+  {
+    code: 'CY-203P',
+    name: 'Inorganic Chemistry Laboratory',
+    professor: 'Prem Felix Siril',
+    slot: 'L5',
+    location: null
+  },
+  {
     code: 'CY-247',
     name: 'Introduction to Molecular Thermodynamics',
     professor: 'Aniruddha Chakraborty',
@@ -448,6 +497,13 @@ export const courses: Course[] = [
     professor: 'Chayan Kanti Nandi',
     slot: 'C',
     location: 'CL-1'
+  },
+  {
+    code: 'CY-501P',
+    name: 'Organic Chemistry Laboratory',
+    professor: 'Subrata Ghosh',
+    slot: 'L1',
+    location: null
   },
   {
     code: 'CY-502',
@@ -557,16 +613,16 @@ export const courses: Course[] = [
   {
     code: 'DS-302',
     name: 'Computing systems for data processing',
-    professor: 'Padmanabhan\nRajan',
+    professor: 'Padmanabhan Rajan',
     slot: 'B',
     location: 'A13-2A'
   },
   {
     code: 'DS-302P',
     name: 'Computing systems for data processing',
-    professor: 'Padmanabhan\nRajan',
+    professor: 'Padmanabhan Rajan',
     slot: 'L3',
-    location: 'A13-2A'
+    location: null
   },
   {
     code: 'DS-313',
@@ -601,7 +657,7 @@ export const courses: Course[] = [
     name: 'Matrix Computations for Data Science',
     professor: 'Adarsh Patel',
     slot: 'L1',
-    location: 'A17-1B'
+    location: null
   },
   {
     code: 'EE-201',
@@ -609,6 +665,13 @@ export const courses: Course[] = [
     professor: 'Moumita Das',
     slot: 'D',
     location: 'A17-2A'
+  },
+  {
+    code: 'EE-201P',
+    name: 'Electromechanics Lab',
+    professor: 'Pratim Kundu',
+    slot: 'L3',
+    location: null
   },
   {
     code: 'EE-211',
@@ -622,7 +685,7 @@ export const courses: Course[] = [
     name: 'Analog Circuit Design',
     professor: 'Abhisek Sharma (New Faculty Member)',
     slot: 'L1',
-    location: 'A17-1A'
+    location: null
   },
   {
     code: 'EE-304',
@@ -639,6 +702,13 @@ export const courses: Course[] = [
     location: 'A17-1B'
   },
   {
+    code: 'EE-309P',
+    name: 'Power Electronics Lab',
+    professor: 'Venkata Ratnam',
+    slot: 'L1',
+    location: null
+  },
+  {
     code: 'EE-326',
     name: 'Computer Organization and processor architecture',
     professor: 'Bikram Paul',
@@ -650,7 +720,7 @@ export const courses: Course[] = [
     name: 'Computer Organization and processor architecture',
     professor: 'Bikram Paul',
     slot: 'L3',
-    location: 'A17-2A'
+    location: null
   },
   {
     code: 'EE-515',
@@ -671,7 +741,7 @@ export const courses: Course[] = [
     name: 'Digital VLSI Architecture Design',
     professor: 'Rahul Shrestha',
     slot: 'L2',
-    location: 'CL-1'
+    location: null
   },
   {
     code: 'EE-529',
@@ -685,7 +755,7 @@ export const courses: Course[] = [
     name: 'Embedded Systems',
     professor: 'Shubhajit Roy Chowdhury',
     slot: 'L1',
-    location: 'CL-2'
+    location: null
   },
   {
     code: 'EE-604',
@@ -695,6 +765,13 @@ export const courses: Course[] = [
     location: 'CL-2'
   },
   {
+    code: 'EE-604P',
+    name: 'Practicum on Advanced Electrical Drives',
+    professor: 'Himanshu Mishra',
+    slot: 'L2',
+    location: null
+  },
+  {
     code: 'EE-611',
     name: 'VLSI Technology',
     professor: 'Satinder Kumar Sharma',
@@ -702,11 +779,25 @@ export const courses: Course[] = [
     location: 'CL-4'
   },
   {
+    code: 'EE-611P',
+    name: 'VLSI Fabrication Practicum',
+    professor: 'Satinder Kumar Sharma',
+    slot: 'L4',
+    location: null
+  },
+  {
     code: 'EE-618',
     name: 'Industrial process control',
     professor: 'Kaushik Halder',
     slot: 'H',
     location: 'A5-3'
+  },
+  {
+    code: 'EE-623P',
+    name: 'Practicum on Digital Control of Power Electronics and Drives',
+    professor: 'Amit Kumar Singha',
+    slot: 'L4',
+    location: null
   },
   {
     code: 'EE-XXX',
@@ -725,23 +816,23 @@ export const courses: Course[] = [
   {
     code: 'EE-500',
     name: 'Network Control System',
-    professor: 'Narendra Kumar\nDhar',
+    professor: 'Narendra Kumar Dhar',
     slot: 'C',
     location: 'SC-NKN'
   },
   {
     code: 'EE-516',
     name: 'Biomedical Systems',
-    professor: 'Shubhajit Roy\nChowdhury',
+    professor: 'Shubhajit Roy Chowdhury',
     slot: 'B',
     location: 'CL-3'
   },
   {
     code: 'EE-516P',
     name: 'Biomedical Systems',
-    professor: 'Shubhajit Roy\nChowdhury',
+    professor: 'Shubhajit Roy Chowdhury',
     slot: 'L2',
-    location: 'CL-3'
+    location: null
   },
   {
     code: 'EE-541',
@@ -811,7 +902,7 @@ export const courses: Course[] = [
     name: 'Digital Image Processing',
     professor: 'Sneha Singh',
     slot: 'L3',
-    location: 'SC-NKN'
+    location: null
   },
   {
     code: 'EE-621',
@@ -837,8 +928,15 @@ export const courses: Course[] = [
   {
     code: 'EE-XXX',
     name: 'Vision and Learning Based Control',
-    professor: 'Radhe Shyam\nSharma',
+    professor: 'Radhe Shyam Sharma',
     slot: 'C',
+    location: null
+  },
+  {
+    code: 'EE-XXXP',
+    name: 'Reverse Engineering',
+    professor: 'Bikram Paul',
+    slot: 'L2',
     location: null
   },
   {
@@ -846,6 +944,13 @@ export const courses: Course[] = [
     name: 'Computational Methods in Material Science',
     professor: 'Sudhir Pandey',
     slot: 'B',
+    location: null
+  },
+  {
+    code: 'EP-401P',
+    name: 'Engineering of Instrumentation',
+    professor: 'C.S. Yadav',
+    slot: 'L5',
     location: null
   },
   {
@@ -865,7 +970,7 @@ export const courses: Course[] = [
   {
     code: 'EP-XXX',
     name: 'Reverse Engineering',
-    professor: 'Dr. Bindu\nRadhamany',
+    professor: 'Dr. Bindu Radhamany',
     slot: 'NS',
     location: null
   },
@@ -977,7 +1082,7 @@ export const courses: Course[] = [
   {
     code: 'HS-533',
     name: 'Urban Development',
-    professor: 'Surya Prakash\nUpadhyay',
+    professor: 'Surya Prakash Upadhyay',
     slot: 'C',
     location: 'A5-4'
   },
@@ -991,7 +1096,7 @@ export const courses: Course[] = [
   {
     code: 'HS-541',
     name: 'Technical Communication',
-    professor: 'Aruna\nBommareddi',
+    professor: 'Aruna Bommareddi',
     slot: 'A',
     location: 'CL-1'
   },
@@ -1005,7 +1110,7 @@ export const courses: Course[] = [
   {
     code: 'HS-546',
     name: 'Readings in World Literature',
-    professor: 'Thirthankar\nChakraborty',
+    professor: 'Thirthankar Chakraborty',
     slot: 'G',
     location: 'A5-4'
   },
@@ -1019,20 +1124,34 @@ export const courses: Course[] = [
   {
     code: 'HS-550',
     name: 'Statistical Methods',
-    professor: 'Shyamashree Das\nGupta',
+    professor: 'Shyamashree Das Gupta',
     slot: 'D',
     location: 'A5-4'
   },
   {
     code: 'HS-550P',
     name: 'Statistical Methods',
-    professor: 'Shyamashree Das\nGupta',
+    professor: 'Shyamashree Das Gupta',
     slot: 'L2',
-    location: 'A5-4'
+    location: null
+  },
+  {
+    code: 'HS-551P',
+    name: 'Development Studies Practicum I',
+    professor: 'Mayanka Ambade',
+    slot: 'L1',
+    location: null
+  },
+  {
+    code: 'HS-554P',
+    name: 'Post Graduate Project',
+    professor: 'Neethi Vadakkan',
+    slot: 'L2',
+    location: null
   },
   {
     code: 'HS-591',
-    name: 'Special topics: Selected Topics in Research\nWriting',
+    name: 'Special topics: Selected Topics in Research Writing',
     professor: 'Rajeshwari Dutt',
     slot: 'FS',
     location: null
@@ -1040,21 +1159,21 @@ export const courses: Course[] = [
   {
     code: 'HS-631',
     name: 'Historical Theory and Methodology',
-    professor: 'Manu V\nDevadevan',
+    professor: 'Manu V Devadevan',
     slot: 'B',
     location: null
   },
   {
     code: 'HS-632',
     name: 'South Indian Epigraphy',
-    professor: 'Manu V\nDevadevan',
+    professor: 'Manu V Devadevan',
     slot: 'C',
     location: null
   },
   {
     code: 'HS-633',
     name: 'Manuscriptology',
-    professor: 'Manu V\nDevadevan',
+    professor: 'Manu V Devadevan',
     slot: 'F',
     location: null
   },
@@ -1064,6 +1183,14 @@ export const courses: Course[] = [
     professor: 'Juan Luis',
     slot: 'D',
     location: 'A11-1A'
+  },
+  {
+    code: 'IC-161P',
+    name: 'Applied Electronics Lab',
+    professor:
+      'Srinivasu Bodapati, Anirban Sarkar, Robin Khosla (Coordinator), Shubhajit Roy Chowdhury, Rahul Shrestha',
+    slot: 'NS',
+    location: null
   },
   {
     code: 'IC-010_CE',
@@ -1126,6 +1253,13 @@ export const courses: Course[] = [
     name: 'Design Practicum',
     professor: 'Gajendra, Sarthak',
     slot: 'NS',
+    location: null
+  },
+  {
+    code: 'IC-222P',
+    name: 'Physics Practicum/Practicals',
+    professor: 'Kaustav Mukherjee',
+    slot: 'L1',
     location: null
   },
   {
@@ -1285,7 +1419,7 @@ export const courses: Course[] = [
   {
     code: 'ME-210P',
     name: 'Fluid Mechanics Lab',
-    professor: 'Parmod Kumar,\nSarthak Nag',
+    professor: 'Parmod Kumar, Sarthak Nag',
     slot: 'C',
     location: null
   },
@@ -1343,7 +1477,7 @@ export const courses: Course[] = [
     name: 'Finite Element Methods in Engineering',
     professor: 'MG(CI),Dhanya (Only Lab-Co-CI)',
     slot: 'L4',
-    location: 'A13-2B'
+    location: null
   },
   {
     code: 'ME-514',
@@ -1432,7 +1566,7 @@ export const courses: Course[] = [
   {
     code: 'MT-204',
     name: 'Thermodynamics and Kinetics of Materials',
-    professor: 'V.M Suntharavel\nMuthaiah',
+    professor: 'V.M Suntharavel Muthaiah',
     slot: 'A',
     location: 'A10-3B'
   },
@@ -1488,7 +1622,7 @@ export const courses: Course[] = [
   {
     code: 'PH-502',
     name: 'Photonics',
-    professor: 'Pradyumna Kr.\nPathak',
+    professor: 'Pradyumna Kr. Pathak',
     slot: 'A',
     location: 'A10-2A'
   },
@@ -1567,6 +1701,13 @@ export const courses: Course[] = [
     name: 'Theory of quantum collision and spectroscopy',
     professor: 'Hari Varma',
     slot: 'C',
+    location: null
+  },
+  {
+    code: 'PH-611P',
+    name: 'Experimental Research Techniques',
+    professor: 'Bindu Radhamany',
+    slot: 'L1',
     location: null
   },
   {

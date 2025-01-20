@@ -3,7 +3,7 @@ import json
 
 
 def find_location(course_code, slot):
-  with open('C:/Users/piyush/Desktop/room.csv', mode='r', encoding='mac_roman') as file:
+  with open('./room.csv', mode='r', encoding='mac_roman') as file:
     csv_reader = csv.reader(file)
     for row in csv_reader:
       if row[0] == course_code and row[1] == slot:
@@ -16,29 +16,31 @@ def convert_csv_to_json(csv_file_path, json_file_path):
     reader = csv.DictReader(csvfile)
     courses = []
     for row in reader:
-      if row["Course Number"] != "" and row["Courses Slot"] != "":
-
-        location = find_location(
-          row["Course Number"].replace('-', ''), row["Courses Slot"])
-        course = {
-            "code": row["Course Number"],
-            "name": row["Course Name"].strip('"'),
-            "professor": row["Faculty Name"].strip('"'),
-            "slot": row["Courses Slot"],
-            "location": location if not row['Course Number'].endswith('P') else None,
-        }
-        courses.append(course)
-
-        if row["Lab Courses Slot"].strip():
+      slot = row["Courses Slot"]
+      lslot = row["Lab Courses Slot"]
+      code = row["Course Number"]
+      if code != "":
+        if slot != "" and not code.endswith('P'):
+          location = find_location(
+            code.replace('-', ''), slot)
+          if slot.strip():
+            course = {
+                "code": code,
+                "name": row["Course Name"].strip('"'),
+                "professor": row["Faculty Name"].strip('"'),
+                "slot": slot.strip(),
+                "location": location if not row['Course Number'].endswith('P') else None,
+            }
+            courses.append(course)
+        if lslot.strip() or code.endswith('P'):
           lab_course = {
-              "code": f"{row['Course Number']}P",
+              "code": f"{code}P" if not code.endswith('P') else code,
               "name": row["Course Name"].strip('"'),
               "professor": row["Faculty Name"].strip('"'),
-              "slot": row["Lab Courses Slot"].strip(),
-              "location": location if not row['Course Number'].endswith('P') else None,
+              "slot": lslot.strip() if lslot.strip() else slot.strip(),
+              "location": None,
           }
           courses.append(lab_course)
-    # in courses delete all courses with code ending with PP
     courses = [
       course for course in courses if not course['code'].endswith('PP')]
     with open(json_file_path, 'w', encoding='utf-8') as jsonfile:
