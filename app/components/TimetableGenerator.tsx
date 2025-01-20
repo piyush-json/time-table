@@ -13,7 +13,6 @@ const TimetableGenerator = () => {
   const [selectedCourses, setSelectedCourses] = useState<Course[]>([])
   const [timetable, setTimetable] = useState<TimetableType>([])
   const [searchParams, setSearchParams] = useSearchParams()
-  const [showDialog, setShowDialog] = useState(!searchParams.has('courses'))
 
   useEffect(() => {
     const coursesParam = searchParams.get('courses')
@@ -124,13 +123,21 @@ const TimetableGenerator = () => {
   return (
     <div className='flex flex-col gap-6'>
       <div className='w-full'>
-        <Timetable timetable={timetable} deleteTimeSlot={deleteTimeSlot} />
+        <Timetable
+          timetable={timetable}
+          deleteTimeSlot={deleteTimeSlot}
+          setTimeTable={setTimetable}
+        />
       </div>
       <div className='flex max-sm:flex-col gap-4'>
         <div>
-          <Button onClick={() => setShowDialog(true)} className='w-full'>
-            Open Course Selection
-          </Button>
+          <CourseSelectionDialog
+            courses={courses}
+            selectedCourses={selectedCourses}
+            onCourseSelect={handleCourseSelect}
+          >
+            <Button className='w-full'>Open Course Selection</Button>
+          </CourseSelectionDialog>
           <ShareTimetable
             selectedCourses={selectedCourses}
             timeTable={timetable}
@@ -142,14 +149,6 @@ const TimetableGenerator = () => {
           onCourseSelect={handleCourseSelect}
         />
       </div>
-      {showDialog && (
-        <CourseSelectionDialog
-          courses={courses}
-          selectedCourses={selectedCourses}
-          onCourseSelect={handleCourseSelect}
-          onClose={() => setShowDialog(false)}
-        />
-      )}
     </div>
   )
 }

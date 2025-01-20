@@ -1,13 +1,32 @@
-import type { Days, TimeSlot, TimetableType } from '@/types'
+import type { Course, Days, TimeSlot, TimetableType } from '@/types'
 import { timeSlots } from '@/lib/const'
 import { CourseCard } from './CourseCard'
+import CourseSelectionDialog from './CourseSelectionDialog'
+import { courses } from '@/lib/courses'
+import { Plus } from 'lucide-react'
 
 interface TimetableProps {
   timetable: TimetableType
   deleteTimeSlot: (day: Days, time: TimeSlot) => void
+  setTimeTable: (timetable: TimetableType) => void
 }
-
-const Timetable = ({ timetable, deleteTimeSlot }: TimetableProps) => {
+const Timetable = ({
+  timetable,
+  deleteTimeSlot,
+  setTimeTable
+}: TimetableProps) => {
+  const handleCourseSelect = (course: Course, day: Days, time: TimeSlot) => {
+    console.log(course, day, time)
+    const newTimetable = timetable.map((slot) => {
+      if (day != slot.day) return slot
+      const newTimeSlot = slot.timeSlot.map((t) => {
+        if (t.time != time) return t
+        return { time, course }
+      })
+      return { day, timeSlot: newTimeSlot }
+    })
+    setTimeTable(newTimetable)
+  }
   return (
     <div className='bg-white shadow rounded-lg p-4 overflow-x-auto timetable w-full'>
       <table className=' border-collapse min-w-full'>
@@ -50,7 +69,17 @@ const Timetable = ({ timetable, deleteTimeSlot }: TimetableProps) => {
                       deleteTimeSlot={() => deleteTimeSlot(day, time)}
                     />
                   ) : (
-                    <div className='h-14' />
+                    <CourseSelectionDialog
+                      courses={courses}
+                      selectedCourses={[]}
+                      onCourseSelect={(course) =>
+                        handleCourseSelect(course, day, time)
+                      }
+                    >
+                      <div className='h-14 flex items-center justify-center cursor-pointer'>
+                        <Plus className='text-gray-300' />
+                      </div>
+                    </CourseSelectionDialog>
                   )}
                 </td>
               ))}
