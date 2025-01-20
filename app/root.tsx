@@ -9,7 +9,6 @@ import {
 
 import type { Route } from './+types/root'
 import stylesheet from './app.css?url'
-import { Skeleton } from './components/ui/skeleton'
 import { Loader } from 'lucide-react'
 
 export const links: Route.LinksFunction = () => [
