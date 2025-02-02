@@ -43,7 +43,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
       </head>
       <body className='flex flex-col min-h-svh'>
         {children}
-        <footer className='mt-8 mb-1 text-center hover:underline underline-offset-2 text-gray-700'>
+        <footer className='mt-8 mb-1 text-center hover:underline underline-offset-2 text-gray-700/85 text-xs'>
           <a href='https://github.com/piyush-panpaliya/time-table'>
             made with ❤️ by PSH
           </a>
