@@ -397,7 +397,7 @@ export const courses: Course[] = [
     code: 'CS-309',
     name: 'Information and Database Systems',
     professor: 'Rohit Saluja',
-    slot: 'G',
+    slot: 'IDS',
     location: 'A13-1A'
   },
   {
@@ -432,7 +432,7 @@ export const courses: Course[] = [
     code: 'CS-671',
     name: 'Deep Learning and Applications',
     professor: 'Aditya Nigam',
-    slot: 'A',
+    slot: 'FS1',
     location: 'CL-2'
   },
   {

@@ -15,6 +15,8 @@ export type Slot =
   | 'L4'
   | 'L5'
   | 'FS'
+  | 'FS1'
+  | 'IDS'
   | 'NS'
 
 export interface Course {

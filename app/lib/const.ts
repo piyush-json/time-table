@@ -12,6 +12,7 @@ export const timeSlots = {
   S3: '10:00-10:50',
   S4: '11:00-11:50',
   S5: '12:00-12:50',
+  SR: '13:00-13:50',
   S6: '14:00-17:00',
   S7: '17:00-17:50'
 } as const
@@ -93,6 +94,21 @@ export const slots = [
       { day: days.WEDNESDAY, time: timeSlots.S7 },
       { day: days.THURSDAY, time: timeSlots.S7 },
       { day: days.FRIDAY, time: timeSlots.S7 }
+    ]
+  },
+  {
+    name: 'FS1',
+    times: [
+      { day: days.MONDAY, time: timeSlots.S7 },
+      { day: days.WEDNESDAY, time: timeSlots.S7 },
+      { day: days.FRIDAY, time: timeSlots.S7 }
+    ]
+  },
+  {
+    name: 'IDS',
+    times: [
+      { day: days.MONDAY, time: timeSlots.SR },
+      { day: days.FRIDAY, time: timeSlots.S6 }
     ]
   },
   {

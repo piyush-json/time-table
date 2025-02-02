@@ -16,6 +16,10 @@ export const getColor = (slot: string) => {
       return '#B3E5FC'
     case 'H':
       return '#B2EBF2'
+    case 'IDS':
+      return '#00FFFF'
+    case 'FS1':
+      return '#FFECB3'
     case 'L1':
       return '#B2DFDB'
     case 'L2':
