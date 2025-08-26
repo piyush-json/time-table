@@ -852,7 +852,7 @@ export const courses: Course [] = [
         {
             "code": "IC-230",
             "name": "Environmental Science",
-            "professor": "Sayantan sarkar (ci), a""d giri",
+            "professor": "Sayantan sarkar (ci), anand giri",
             "slot": "E",
             "location": ""
         },
@@ -1187,7 +1187,7 @@ export const courses: Course [] = [
         },
         {
             "code": "EE-615",
-            "name": "nanoelectronics and Micro""ofabrication",
+            "name": "nanoelectronics and Micronanofabrication",
             "professor": "Satinder",
             "slot": "H",
             "location": ""
@@ -1377,7 +1377,7 @@ export const courses: Course [] = [
         {
             "code": "EE-519P",
             "name": "CMOS Digital IC Design Practicum",
-            "professor": "Y r a""d (new faculty member)",
+            "professor":"(new faculty member)",
             "slot": "L1",
             "location": ""
         },
