@@ -908,7 +908,7 @@ export const courses: Course [] = [
         {
             "code": "CE-303",
             "name": "Water Resources Engineering",
-            "professor": "Aliva ""da",
+            "professor": "Aliva nanda",
             "slot": "C",
             "location": ""
         },
@@ -1027,14 +1027,14 @@ export const courses: Course [] = [
         {
             "code": "CE-521 LAB",
             "name": "Ecology and Environment Microbiology",
-            "professor": "A""d giri",
+            "professor": "Anand giri",
             "slot": "L5",
             "location": ""
         },
         {
             "code": "CE-521",
             "name": "Ecology and Environment Microbiology",
-            "professor": "A""d giri",
+            "professor": "Anand giri",
             "slot": "A",
             "location": ""
         },
