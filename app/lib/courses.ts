@@ -88,7 +88,7 @@ export const courses: Course [] = [
         },
         {
             "code": "BY-505",
-            "name": """o-Biotechnology",
+            "name": "nano-Biotechnology",
             "professor": "J.amit",
             "slot": "D",
             "location": "A5-3"
@@ -536,7 +536,7 @@ export const courses: Course [] = [
         },
         {
             "code": "ME-509",
-            "name": """omanufacturing",
+            "name": "nanomanufacturing",
             "professor": "Neha thakur",
             "slot": "E",
             "location": ""
@@ -1187,7 +1187,7 @@ export const courses: Course [] = [
         },
         {
             "code": "EE-615",
-            "name": """oelectronics and Micro""ofabrication",
+            "name": "nanoelectronics and Micro""ofabrication",
             "professor": "Satinder",
             "slot": "H",
             "location": ""
