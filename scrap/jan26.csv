@@ -1,0 +1,198 @@
+Course Code,Course Name,Course Credit,Slot,Professor Name
+AR-508_New,Marine Robotics,3,B,Dr. Jagadeesh Kadiyam
+AR-513_New,Unmanned Aerial Systems (UAS),3,A,Dr. Amit Shukla
+AR-523_New/GE-526_New,Patenting Through Design Thinking,,C,Prof. Dipankar Deb
+AR-524_New,Robot Simulators,,G,Dr. Radhe Shyam Sharma
+AR-525_New,Reinforcement Learning for Robotics,,D,Dr. Deepak Raina
+AR-526_New,Multimodal Learning,,H,Dr. Praful Tejerao Hambarde
+BE-101P_New,Re verse Engineering for Bioengineers,1,FS1,Dr. Kharerin Hungyo
+BE-203_1_New,Enzymology and Bioprocessing,3,D&LS2,Dr. Lokeshkumar Pisaram Ramteke
+BE-301_New,Biomechanics,4,B&LS1,Dr. Mohammad Talha
+BE-304_1_New,Bioinformatics,3,C&LS3,Dr. Kharerin Hungyo
+BE-499P_NEW,Major Technical Project-2,,NS,Dr. Prasad Kasturi
+BE-507_New,Tissue Engineering,3,G,Dr. Sumit Murab
+BY-504_New,Metabolic Systems Biology,4,H,Dr. Shyam Kumar Masakapalli
+BY-514_New,Analytical Biotechniques,3,A,Dr. Amit Jaiswal
+BY-517_New,Proteomics,3,F,Dr. Trayambak Basak
+BY-527_New,Gene silencing and genome editing: principles and applications,3,D,Dr. Prasad Kasturi
+BY-528_New,Sensory Biology,3,B,Dr. Baskar Bakthavachalu
+BY-532_NEW,Immunotechnology,3,E,Dr. Amit Prasad
+BY-534_New,Functional Neuroimaging and Data Analysis,,D,Dr. Sanjeev Nara
+CE-201_New,Surveying: Traditional and Digital,3,"E,LS3",Dr. Dericks Praise Shukla
+CE-202_New,Introduction to Civil Engineering,1,G,Dr. Kaustav Sarkar
+CE-251_New,Hydraulics Engineering,3,F,Dr. Ranjeet Kumar Jha
+CE-304P_New,Hydraulics Engineering Lab,1,LS2,Dr. Aliva Nanda
+CE-306P_NEW,Environmental Engineering Lab,1,LS3,Dr. Harshad Vijay Kulkarni
+CE-311_New,Geotechnical Engineering I,3,D,Dr. Mousumi Mukherjee
+CE-311P_New,Geotechnical Engineering Laboratory,1,LS1,Dr. Kala Venkata Uday
+CE-356_NEW,Reverse Engineering,1,H,Dr. Vivek Gupta
+CE-401_New,Design of Steel Structures,3,C,Dr. Thainswemong Choudhury
+CE-403_New,Wastewater Engineering,3,D,Dr. Harshad Vijay Kulkarni
+CE-404_New,Analysis of Structures,3,B,Dr. Dhanya J
+CE-452_NEW,,,C,Vivek Gupta
+CE-499P_New,Major Technical Project-2,,NS,Dr. Harshad Vijay Kulkarni
+CE-515_New,Environmental Impact Assessment,3,G,Dr. Rajneesh Sharma
+CE-518_NEW,Structural Reliability and Risk Assessment,3,C,Dr. Maheshreddy Gade
+CE-526_New,Critical Zone Science,,B,Dr. Aliva Nanda
+CE-560_New,Soil Dynamics,3,G,Dr. Ashutosh Kumar
+CE-561_New,The science of climate change,3,F,Dr. Sayantan Sarkar
+CE-564_NEW,Fundamentals of Fracture Mechanics,,FS1,Dr. Rajneesh Sharma
+CE-567_NEW,,,E,Dr.Anshu Bamney
+CE-568P_NEW,Mini Project,,LS2,Dr. Vivek Gupta
+CE-610_New,Analysis and Design for Earthquake Resistant Structures,3,E,Dr. Shivang Shekhar
+CE-611_New,Structural Health Monitoring,3,H,Dr. Subhamoy Sen
+CS-302_New,Paradigms of Programming,4,"D, LS2",Dr. Varunkumar Jayapaul
+CS-303_New,Software Engineering,3,"C, LS4",Dr. Varun Dutt
+CS-304_New,Formal Languages and Automata Theory,3,A,Dr. Prateek Vishnoi
+CS-309_New,Information and Database Systems,4,"G,LS5",Dr. Dinesh Singh
+CS-525_New,Computational Foundations of Cryptography,3,FS,Dr. Gaurav Sood
+CS-549_1_New,Computer Networks Analysis,3,B,Dr. Preeti
+CS-570_New,Algorithms for Curves and Surface,3,F,Dr. Jinesh C Machchhar
+CS-671_New,Deep Learning and Applications,4,A,Dr. Aditya Nigam
+CS-673_New,Advanced Computer Vision,4,"D, LS1",Dr. Dinesh Singh
+CS-683_New,Generative AI,4,H,Dr. Kancharla Parimala
+CS-686_New,Large Language Models: Core Concepts to Custom Applications,4,C,Dr. Rohit Saluja
+CY-002_New,Preparatory Chemistry - 2,4,E,Dr. Aniruddha Chakraborty
+CY-200_New,Foundation and Applications of Chemistry,,C,Dr. Bhaskar Mondal
+CY-202P_New,Physical Chemistry Laboratory,2,LS3,Dr. Indu Bala
+CY-203P_New,Physical Chemistry Laboratory,2,LS5,Dr. Pradeep C Parameswaran
+CY-304_New,Fundamental Analytical Chemistry,3,D,Dr. Venkata Krishnan
+CY-401_New,Introduction to Quantum Chemistry & Molecular Spectroscopy,3,B,Dr. Chayan Kanti Nandi
+CY-404_New,Fundamentals of Soft Matter Science and Applications,3,G,Dr. Indu Bala
+CY-600_New,Research Methodology for Chemistry,1,FS1,Dr. Venkata Krishnan
+DP-402P_NEW,Major Technical Project (Contd.),4,No slot required,Dr. Garima Agrawal
+DP-402P_New,Major Technical Project (Contd.),4,,#N/A
+DS-302_New,Computing Systems for Data Processing,3,"B, LS3",Dr. Padmanabhan Rajan
+DS-313_New,Statistical Foundations of Data Science,4,E,Dr. Siddhartha Sarma
+DS-404_New,Information Security and Privacy,3,H,Dr. Awaneesh Kumar Yadav
+DS-411_New,Optimization for Data Science,4,F,Dr. Samar
+DS-412_New,Matrix Computations for Data Science,4,"C, LS1",Dr. Adarsh Patel
+EE-201_New,Electromechanics,3,D,Dr. Moumita Das
+EE-201P_New,Electromechanics Lab.,1,LS3,Dr. Moumita Das
+EE-202_New,Analog Electronics,3,B,Dr. Animesh Biswas
+EE-211_New,Analog Circuit Design,3,"A, LS4",Dr. Abhishek Sharma
+EE-223P_New,Reverse Engineering,1,LS2,Dr. Srikanth Sugavanam
+EE-309_New,Power Electronics,3,G,Dr. Dwijasish Das
+EE-309P_New,Power Electronics Lab,1,LS1,Dr. Dwijasish Das
+EE-316_New,Communication Systems,4,"B, LS5",Dr. Adarsh Patel
+EE-500_New,Network Control System,3,C,Dr. Narendra Kumar Dhar
+EE-515_New,Nonlinear Stability and Control,4,A,Dr. Tushar Jain
+EE-516_New,Biomedical Systems,4,"A, LS1",Dr. Shubhajit Roy Chowdhury
+EE-523_New,Digital VLSI Architecture Design,4,"B, LS5",Dr. Rahul Shrestha
+EE-529_New,Embedded Systems,4,"C, LS2",Dr. Shubhajit Roy Chowdhury
+EE-530_1_New,Applied Optimization,3,F,Dr. Satyajitsinh Ajitsinh Thakor
+EE-533_New,Acess Network,4,D,Dr. Sourav Dutta
+EE-538_New,Data-driven Control,3,"E, LS4",Dr. Venkata Karteek Yanumula
+EE-556_NEW,Nuclear Reactor Control,1,F,Dr. Akhilanand Pati Tiwari
+EE-581_NEW,Applied Statistics for Data and Signals,4,C,Dr. Manne Pavan Kumar Reddy
+EE-582_New,Nonlinear Analysis and Control of Power Electronic Converters,3,G,Dr. Amit Kumar Singha
+EE-583_New,Smart Grids,3,D,Dr. Pratim Kundu
+EE-593_New,Low Power VLSI Circuits,3,D,Dr. Srinivasu Bodapati
+EE-604_New,Advanced Electric Drives,3,B,Dr. Himanshu Misra
+EE-604P_New,Practicum on Advanced Electric Drives,2,LS2,Dr. Himanshu Misra
+EE-607_New,Optical Communication Systems,3,E,Dr. Srikanth Sugavanam
+EE-608_New,Digital Image Processing,4,"E, LS5",Dr. Sneha Singh
+EE-611_New,VLSI Technology,3,E,Dr. Satinder Kumar Sharma
+EE-611P_New,VLSI Fabrication Practicum,2,LS4,Dr. Satinder Kumar Sharma
+EE-618_New,Industrial Process Control,3,H,Dr. Kaushik Halder
+EE-619_New,Mixed Signal VLSI Design,4,"F,LS3",Dr. Hiteshbhai Kantilal Shrimali
+EE-623P_1_New,Practicum on Digital Control of Power Electronics and Drives,3,"F, LS4",Dr. Amit Kumar Singha
+EE-625P_New,Post Graduate Project - 2,16,,#N/A
+EN-511_New,Structure-Property Characterization,3,H,Dr. Sudhir Kumar Pandey
+EP-201_New,Reverse Engineering,,C,Dr. Bindu Radhamany
+EP-401P_New,Engineering of Instrumentation,4,LS5,Dr. Ajay Soni
+EP-403_New,Physics of atoms and molecules,3,A,Dr. Hari Varma R
+EP-502_New,Informatics for Materials Design,3,G,Dr. Arti Kashyap
+GE-502_New,Consciousness and Professional Ethics,3,FS1,Dr. Atul Dhar
+HS-105_New,Basic Communication Skills,3,H,Dr. Suman
+HS-112_New,Japanese I,3,D,Dr. Surya Prakash Upadhyay
+HS-151_New,Introduction to English Literature,3,B,Dr. Vadakkan Neethi Alexander
+HS-204_New,Introduction to Political Science,3,E,Dr. Aparna Malaviya
+HS-213_New,Japanese III,3,D,Dr. Surya Prakash Upadhyay
+HS-255_New,India Since Independence,3,G,Dr. Aparna Malaviya
+HS-302_New,Introduction to Drama in English,3,D,Dr. Vadakkan Neethi Alexander
+HS-307_New,Macroeconomics I,3,H,Dr. Masudul Hasan Adil
+HS-310_New,Japanese III,3,D,Dr. Surya Prakash Upadhyay
+HS-358_New,Science Writing,3,E,Dr. Aruna Bommareddi
+HS-405_New,Japanese Language Class IV,,D,Dr. Surya Prakash Upadhyay
+HS-504_New,Personal Finance and Portfolio Management,3,E,Dr. Satvasheel Ramesh Powar
+HS-538_New,Development Economics,3,A,Dr. Ramna Devi Thakur
+HS-542_New,"Ethnicity, State, and Nationalism in India",3,E,Dr. Nilamber Chhetri
+IC-010_New,Internship,,NS,Dr. Baskar Bakthavachalu
+IC-102P_New,Foundation of Design Practicum,4,,Dr. Deepak Raina (Coordinator)
+IC-113_New,Complex and Vector Calculus,2,,Dr. Samir Shukla
+IC-115_New,ODE and Integral transform,2,,Dr. Vikash Tripathi
+IC-121_New,Mechanics of Particles and waves,3,C,Dr. Harsh Soni
+IC-140_New,Graphics for Design,4,,Dr. Deepak Sachan
+IC-161_New,Applied Electronics,3,H,Dr. Venkata Ratnam Vakacharla
+IC-161P_New,Applied Electronics,2,"LS1,LS2,LS3,LS4,LS5",Dr. Robin Khosla
+IC-222P_New,Physics Practicum/Practicals,2,"LS1,LS2,LS3,LS4",Dr. Tanushree Roy
+IC-240_New,Mechanics of Rigid Bodies,3,,Dr. Sandip Kumar Saha
+IC-241_New,Materials Science for Engineers,3,,Dr. Neha Shukla
+IC-252_New,Data Science 2,4,,Dr. Sarita Azad
+IC-253_New,Programming and Data Structures,3,"A, LS1",Dr. Indu Joshi
+IK-503_New,Cognitive Psychology and the Indian Thought System,3,A,Dr. Varun Dutt
+IK-503_New,Cognitive Psychology and the Indian Thought System,3,A,Dr. Varun Dutt
+IK-505_New,Bhagavata Sankhya,3,FS1,Dr. Venkatesh Hanumant Rao Chembrolu
+IK-506_New,Research methods and statistics for contemplative science,3,E,Dr. Ramajayam Govindaraji
+IK-515_NEW,Music and Cognition,3,B,Dr. Archi Banerjee
+IK-540_NEW,Bhagavad-G¯ ıt¯ a Part II,3,F,Dr. Prof. Laxmidhar Behera
+IK-541_NEW,Upanishads and Vedanta Studies,3,FS1,Dr. Krishna Gajendra Panda
+IK-552_NEW,Selected Topics in R¯ am¯ ayan .a,3,FS1,Dr. Krishna Gajendra Panda
+IK-555_NEW,Selected Topics in Mah¯ abh¯ arata,3,FS1,Dr. Krishna Gajendra Panda
+MA-220_New,Partial Differential Equations,,B,Dr. Syed Abbas
+MA-221_New,Numerical Analysis,,C,Dr. Muslim Malik
+MA-222_New,Applied Mathematical Programming,,E,Dr. Preeti
+MA-321_New,Numerics of Differential Equations,,F,Dr. Rajendra Kumar Ray
+MA-323P_New,Applied Databases Practicum,,,Dr. Mirza Galib Anwarul Husain Baig
+MA-528_New,Measure Theory and Integration,4,F,Dr. Saswata Adhikari
+MA-546_New,Introduction to Quantitative Finance,,FS,Dr. Manoj Thakur
+MA-552_New,Number Theory,3,G,Dr. Sampat Kumar Sharma
+MA-561_New,Fluidics and Microfluidics (Under Approval),,H,Dr. Doyel Pandey
+MA-604_NEW,Introduction to Game Theory,3,D,Dr. Sreelakshmi P.M Sreelakshmi P.M
+MB-203_New,,,Not Applicable,Dr. Ridhi Arora
+MB-205_New,,,Not Applicable,Dr. Dechen Angmo
+MB-206_New,,,Not Applicable,Dr. Manoj Thakur
+MB-292_New,,,Not Applicable,Dr. Dechen Angmo
+MB-301_New,,,Not Applicable,Dr. Ashish Bollimbala
+MB-306_New,,,Not Applicable,Dr. Ridhi Arora
+MB-307_New,,,Not Applicable,Dr. Puran Singh
+MB-391_New,,,Not Applicable,Dr. Ashish Bollimbala
+ME-100_New,Reverse Engineering Intended for: B.Tech,1,L 2,Dr. Rahul Vaish
+ME-205_New,Machine Drawing,3,A,Dr. Himanshu Pathak
+ME-210P_NEW,Thermo-Fluids Lab,1,L1,Dr. Parmod Kumar
+ME-215_New,Manufacturing Engineering-1,3,C,Dr. Sanasam Sunderlal Singh
+ME-303_New,Heat Transfer,3,B,Dr. Pydi Anil Kishan
+ME-307_New,Energy Conversion Devices,3,D,Dr. Gajendra Singh
+ME-312P_New,Design Lab - 2,1,L3,Dr. Mohammad Talha
+ME-353_New,Electronic Materials and Their Applications,3,D,Dr. Viswanath Balakrishnan
+ME-499P_New,Major Technical Project-2,,NS,Dr. Pradeep Kumar
+ME-504_New,Numerical Methods for Engineering Computation,3,E,Dr. Vishal Singh Chauhan
+ME-509_New,Nanomanufacturing,3,B,Dr. Jaspreet Kaur Randhawa
+ME-510_New,Advanced Manufacturing Processes,3,B,Dr. Deepak Deelip Patil
+ME-520_NEW,Microwave based Manufacturing Processes,3,FS1,Dr. Sunny Zafar
+ME-522_New,High-Performance Scientific Computing,3,C,Dr. Gaurav Bhutani
+ME-524_New,Additive Manufacturing,3,Free Slot,Dr. Prateek Saxena
+ME-527_New,Thermal Management of Electronics,,F,Dr. Parmod Kumar
+ME-616_New,Convective Heat and Mass Transfer,3,F,Dr. Pradeep Kumar
+ME-617_New,Mechanics of Composite Materials,3,G,Dr. Raj Kiran
+ME-622_New,Biomechanics of Musculoskeletal System,3,G,Dr. Rajesh Ghosh
+ME-625_New,Introduction to Turbulence and its Modeling,3,C,Dr. Shashwat Bhattacharya
+ME-630_New,Machine Learning for engineers,,H,Dr. Rajeev Kumar
+MT-204_New,Thermodynamics and Kinetics of Materials,,B,Dr. Sandeep Sahu
+MT-205_New,Functional Properties of Materials,,A,Dr. Ranbir Singh
+MT-206_New,Extraction and Materials Processing,,C,Dr. Bukke Ravindra Naik
+MT-501_New,Energy conversion and Storage Technologies,,A,Dr. Rik Rani Koner
+MT-504_New,,,B,Dr. Suntharavel Muthaiah V.M.
+MT-506_New,Biomaterials,,F,Dr. Jaspreet Kaur Randhawa
+MT-507_New,Modelling and SImulations in Materials Science,,C,Dr. Dube Dheeraj Prakashchand
+PH-302_New,Introduction to Statistical Mechanics,3,B,Dr. Chadr Shekhar Yadav
+PH-501_New,Solid State Physics,3,D,Dr. Kaustav Mukherjee
+PH-502_New,Optics/Photonics,3,A,Dr. Pradyumna Kumar Pathak
+QT-406_New,Introduction to Quantum Communication,,FS1,Dr. Jaskaran Singh Nirankari
+QT-407_New,Introduction to Quantum Sensing,,FS1,Dr. Amit Dattatraya Lad
+VL-300_New,Research Methodology,1,LS3,Dr. Bikram Paul
+VL-311_New,CMOS processing and practicum,4,"D, LS2",Dr. Robin Khosla
+VL-312_New,Electronics system packaging,3,E,Dr. Kunal Ghosh
+VL-326_New,Computer Organization,4,"F, LS1",Dr. Bikram Paul
+Yet to proposed,,,FS1,Dr. Neha Thakur
